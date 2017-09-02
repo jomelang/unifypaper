@@ -46,5 +46,17 @@ namespace UnifyPaper.form.pages
         {
 
         }
+
+        private void btnAdd_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmAddAccount faa = new frmAddAccount();
+            faa.ShowDialog();
+        }
+
+        private void btnUpdateAccount_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmUpdateAccount faa = new frmUpdateAccount();
+            faa.ShowDialog();
+        }
     }
 }
