@@ -16,5 +16,11 @@ namespace UnifyPaper
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            form.pages.frmMainPage fmp = new form.pages.frmMainPage();
+            fmp.ShowDialog();
+        }
     }
 }
