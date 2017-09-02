@@ -58,5 +58,10 @@ namespace UnifyPaper.form.pages
             frmUpdateAccount faa = new frmUpdateAccount();
             faa.ShowDialog();
         }
+
+        private void txtQty_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
