@@ -124,6 +124,7 @@
             this.MinimizeBox = false;
             this.Name = "frmAddProductCategory";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.frmAddProductCategory_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
