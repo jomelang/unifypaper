@@ -15,12 +15,47 @@ namespace UnifyPaper
         public frmLogin()
         {
             InitializeComponent();
+            tbPassword.PasswordChar = '•';
         }
+
+        Classes.Database.database db = new Classes.Database.database();
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            form.pages.frmMainPage fmp = new form.pages.frmMainPage();
-            fmp.ShowDialog();
+            if (tbUsername.Text != "" && tbPassword.Text != "")
+            {
+                Classes.Entities.users u = new Classes.Entities.users();
+                u.username = tbUsername.Text.ToString().Trim();
+                u.password = tbPassword.Text.ToString().Trim();
+
+                Classes.Entities.users user = new Classes.Entities.users();
+                user = db.checkLogin(u);
+                if (user != null)
+                {
+                    Classes.Session.sessionUsers.ID = user.ID;
+                    Classes.Session.sessionUsers.username = tbUsername.Text.ToString().Trim();
+                    Classes.Session.sessionUsers.password = tbPassword.Text.ToString().Trim();
+                    Classes.Session.sessionUsers.userlevel = user.userlevel;
+                    form.pages.frmMainPage fmp = new form.pages.frmMainPage();
+                    fmp.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Error");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please Fill Out Fields");
+            }
+            
+
+            
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
