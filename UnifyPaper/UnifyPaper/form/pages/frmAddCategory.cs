@@ -16,5 +16,10 @@ namespace UnifyPaper.form.pages
         {
             InitializeComponent();
         }
+
+        private void frmAddProductCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -81,7 +81,7 @@
             this.btnOK.Size = new System.Drawing.Size(65, 25);
             this.btnOK.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnOK.TabIndex = 34;
-            this.btnOK.Text = "Update";
+            this.btnOK.Text = "Add";
             // 
             // tbMiddlename
             // 
@@ -218,7 +218,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 356);
+            this.ClientSize = new System.Drawing.Size(673, 356);
             this.Controls.Add(this.lbAccountInformation);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
