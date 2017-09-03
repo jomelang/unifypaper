@@ -1,6 +1,6 @@
 ﻿namespace UnifyPaper.form.pages
 {
-    partial class frmAddProductCategory
+    partial class frmAddCategory
     {
         /// <summary>
         /// Required designer variable.
@@ -41,10 +41,9 @@
             // 
             this.lbAccountInformation.AutoSize = true;
             this.lbAccountInformation.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAccountInformation.Location = new System.Drawing.Point(29, 54);
-            this.lbAccountInformation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbAccountInformation.Location = new System.Drawing.Point(39, 66);
             this.lbAccountInformation.Name = "lbAccountInformation";
-            this.lbAccountInformation.Size = new System.Drawing.Size(185, 19);
+            this.lbAccountInformation.Size = new System.Drawing.Size(229, 24);
             this.lbAccountInformation.TabIndex = 38;
             this.lbAccountInformation.Text = "Category Information";
             // 
@@ -55,10 +54,10 @@
             this.panel1.Controls.Add(this.btnOK);
             this.panel1.Controls.Add(this.tbAccountID);
             this.panel1.Controls.Add(this.lbAccountID);
-            this.panel1.Location = new System.Drawing.Point(33, 63);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(44, 78);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(442, 116);
+            this.panel1.Size = new System.Drawing.Size(589, 142);
             this.panel1.TabIndex = 39;
             // 
             // btnCancel
@@ -67,10 +66,10 @@
             this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(363, 79);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCancel.Location = new System.Drawing.Point(484, 97);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(69, 24);
+            this.btnCancel.Size = new System.Drawing.Size(92, 30);
             this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnCancel.TabIndex = 35;
             this.btnCancel.Text = "Cancel";
@@ -80,10 +79,10 @@
             this.btnOK.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnOK.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOK.Location = new System.Drawing.Point(294, 78);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(2);
+            this.btnOK.Location = new System.Drawing.Point(392, 96);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(65, 25);
+            this.btnOK.Size = new System.Drawing.Size(87, 31);
             this.btnOK.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnOK.TabIndex = 34;
             this.btnOK.Text = "Add";
@@ -95,34 +94,34 @@
             // 
             this.tbAccountID.Border.Class = "TextBoxBorder";
             this.tbAccountID.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.tbAccountID.Location = new System.Drawing.Point(136, 38);
-            this.tbAccountID.Margin = new System.Windows.Forms.Padding(2);
+            this.tbAccountID.Location = new System.Drawing.Point(181, 47);
+            this.tbAccountID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbAccountID.Name = "tbAccountID";
             this.tbAccountID.PreventEnterBeep = true;
-            this.tbAccountID.Size = new System.Drawing.Size(279, 20);
+            this.tbAccountID.Size = new System.Drawing.Size(372, 22);
             this.tbAccountID.TabIndex = 30;
             // 
             // lbAccountID
             // 
             this.lbAccountID.AutoSize = true;
             this.lbAccountID.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAccountID.Location = new System.Drawing.Point(11, 41);
-            this.lbAccountID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbAccountID.Location = new System.Drawing.Point(15, 50);
             this.lbAccountID.Name = "lbAccountID";
-            this.lbAccountID.Size = new System.Drawing.Size(109, 17);
+            this.lbAccountID.Size = new System.Drawing.Size(130, 21);
             this.lbAccountID.TabIndex = 22;
             this.lbAccountID.Text = "Catergory Name";
             // 
-            // frmAddProductCategory
+            // frmAddCategory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 220);
+            this.ClientSize = new System.Drawing.Size(675, 271);
             this.Controls.Add(this.lbAccountInformation);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmAddProductCategory";
+            this.Name = "frmAddCategory";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.frmAddProductCategory_Load);
             this.panel1.ResumeLayout(false);

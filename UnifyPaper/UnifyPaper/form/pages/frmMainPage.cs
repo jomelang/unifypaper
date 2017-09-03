@@ -63,5 +63,35 @@ namespace UnifyPaper.form.pages
         {
 
         }
+
+        private void btnAddProduct_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmAddProduct fap = new frmAddProduct();
+            fap.ShowDialog();
+        }
+
+        private void btnUpdateProduct_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmUpdateProduct fup = new frmUpdateProduct();
+            fup.ShowDialog();
+        }
+
+        private void btnAddCategory_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmAddCategory fac = new frmAddCategory();
+            fac.ShowDialog();
+        }
+
+        private void btnUpdateCategory_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmUpdateProductCategory fupc = new frmUpdateProductCategory();
+            fupc.ShowDialog();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            frmItemList fil = new frmItemList();
+            fil.ShowDialog();
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UnifyPaper.form.pages
 {
-    public partial class frmAddProductCategory : Form
+    public partial class frmAddCategory : Form
     {
-        public frmAddProductCategory()
+        public frmAddCategory()
         {
             InitializeComponent();
         }

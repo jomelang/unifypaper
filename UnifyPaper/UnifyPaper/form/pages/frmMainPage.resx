@@ -242,7 +242,7 @@
         eDnJdPDykfjR/wGRwqnt+5LKSQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bubbleButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUpdateProduct.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAU9SURBVEhLtVZtTFNXGD7Z1JnMucXs16JLtmR/Fqc/
@@ -271,7 +271,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bubbleButton6.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUpdateProduct.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAABTJSURBVHhe5Zt5eFRVmsa7Z6ZnnO6Zeeaf6Znpbree
@@ -366,7 +366,7 @@
         eDnJdPDykfjR/wGRwqnt+5LKSQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bubbleButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAddProduct.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAU9SURBVEhLtVZtTFNXGD7Z1JnMucXs16JLtmR/Fqc/
@@ -395,7 +395,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bubbleButton7.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAddProduct.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAABTJSURBVHhe5Zt5eFRVmsa7Z6ZnnO6Zeeaf6Znpbree
@@ -614,7 +614,7 @@
         eDnJdPDykfjR/wGRwqnt+5LKSQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bubbleButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUpdateCategory.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAU9SURBVEhLtVZtTFNXGD7Z1JnMucXs16JLtmR/Fqc/
@@ -643,7 +643,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bubbleButton2.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUpdateCategory.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAABTJSURBVHhe5Zt5eFRVmsa7Z6ZnnO6Zeeaf6Znpbree
@@ -738,7 +738,7 @@
         eDnJdPDykfjR/wGRwqnt+5LKSQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bubbleButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAddCategory.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAU9SURBVEhLtVZtTFNXGD7Z1JnMucXs16JLtmR/Fqc/
@@ -767,7 +767,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bubbleButton4.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAddCategory.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAABTJSURBVHhe5Zt5eFRVmsa7Z6ZnnO6Zeeaf6Znpbree
