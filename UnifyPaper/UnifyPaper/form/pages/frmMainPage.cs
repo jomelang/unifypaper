@@ -93,5 +93,10 @@ namespace UnifyPaper.form.pages
             frmItemList fil = new frmItemList();
             fil.ShowDialog();
         }
+
+        private void frmMainPage_Load(object sender, EventArgs e)
+        {
+            lbUsername.Text = Classes.Session.sessionUsers.username;
+        }
     }
 }
