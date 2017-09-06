@@ -154,7 +154,9 @@ namespace UnifyPaper.form.pages
             lbUsername.Text = Classes.Session.sessionUsers.username;
         }
 
+
         private void bubbleBar2_ButtonClick(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+
         {
 
         }

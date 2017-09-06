@@ -10,9 +10,9 @@ namespace UnifyPaper.Classes.Database
 {
     class database
     {
-        OleDbConnection conn = null;
-        OleDbDataReader dr = null;
-        OleDbCommand cmd = null;
+        protected OleDbConnection conn = null;
+        protected OleDbDataReader dr = null;
+        protected OleDbCommand cmd = null;
 
         public database()
         {
@@ -90,7 +90,7 @@ namespace UnifyPaper.Classes.Database
                     cmd.Parameters.AddWithValue("@firstname", u.firstname);
                     cmd.Parameters.AddWithValue("@middlename", u.middlename);
                     int add = cmd.ExecuteNonQuery();
-
+                        
                     if (add <= 0)
                     {
                         result = false;
