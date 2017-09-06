@@ -38,19 +38,19 @@
             this.labelX8 = new DevComponents.DotNetBar.LabelX();
             this.labelX9 = new DevComponents.DotNetBar.LabelX();
             this.labelX10 = new DevComponents.DotNetBar.LabelX();
-            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX3 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX4 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX5 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX6 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX7 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX8 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX9 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX10 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX3 = new DevComponents.DotNetBar.ButtonX();
+            this.tbProductCode = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbDescription = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbVariety = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbBarCodeQty = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbStandardPrice = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbCurrentCost = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbQuantity = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbTaxCode = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbSupplierName = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbSupplierContactNo = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnSave = new DevComponents.DotNetBar.ButtonX();
+            this.btnClose = new DevComponents.DotNetBar.ButtonX();
+            this.btnClear = new DevComponents.DotNetBar.ButtonX();
             this.SuspendLayout();
             // 
             // labelX1
@@ -174,187 +174,190 @@
             this.labelX10.TabIndex = 9;
             this.labelX10.Text = "Product Code:";
             // 
-            // textBoxX1
+            // tbProductCode
             // 
             // 
             // 
             // 
-            this.textBoxX1.Border.Class = "TextBoxBorder";
-            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.Location = new System.Drawing.Point(158, 55);
-            this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.PreventEnterBeep = true;
-            this.textBoxX1.Size = new System.Drawing.Size(205, 20);
-            this.textBoxX1.TabIndex = 10;
+            this.tbProductCode.Border.Class = "TextBoxBorder";
+            this.tbProductCode.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbProductCode.Location = new System.Drawing.Point(158, 55);
+            this.tbProductCode.Name = "tbProductCode";
+            this.tbProductCode.PreventEnterBeep = true;
+            this.tbProductCode.Size = new System.Drawing.Size(205, 20);
+            this.tbProductCode.TabIndex = 10;
             // 
-            // textBoxX2
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX2.Border.Class = "TextBoxBorder";
-            this.textBoxX2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX2.Location = new System.Drawing.Point(159, 82);
-            this.textBoxX2.Name = "textBoxX2";
-            this.textBoxX2.PreventEnterBeep = true;
-            this.textBoxX2.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX2.TabIndex = 11;
-            // 
-            // textBoxX3
+            // tbDescription
             // 
             // 
             // 
             // 
-            this.textBoxX3.Border.Class = "TextBoxBorder";
-            this.textBoxX3.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX3.Location = new System.Drawing.Point(159, 112);
-            this.textBoxX3.Name = "textBoxX3";
-            this.textBoxX3.PreventEnterBeep = true;
-            this.textBoxX3.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX3.TabIndex = 12;
+            this.tbDescription.Border.Class = "TextBoxBorder";
+            this.tbDescription.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbDescription.Location = new System.Drawing.Point(159, 82);
+            this.tbDescription.Name = "tbDescription";
+            this.tbDescription.PreventEnterBeep = true;
+            this.tbDescription.Size = new System.Drawing.Size(204, 20);
+            this.tbDescription.TabIndex = 11;
             // 
-            // textBoxX4
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX4.Border.Class = "TextBoxBorder";
-            this.textBoxX4.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX4.Location = new System.Drawing.Point(159, 139);
-            this.textBoxX4.Name = "textBoxX4";
-            this.textBoxX4.PreventEnterBeep = true;
-            this.textBoxX4.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX4.TabIndex = 13;
-            // 
-            // textBoxX5
+            // tbVariety
             // 
             // 
             // 
             // 
-            this.textBoxX5.Border.Class = "TextBoxBorder";
-            this.textBoxX5.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX5.Location = new System.Drawing.Point(159, 170);
-            this.textBoxX5.Name = "textBoxX5";
-            this.textBoxX5.PreventEnterBeep = true;
-            this.textBoxX5.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX5.TabIndex = 14;
+            this.tbVariety.Border.Class = "TextBoxBorder";
+            this.tbVariety.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbVariety.Location = new System.Drawing.Point(159, 112);
+            this.tbVariety.Name = "tbVariety";
+            this.tbVariety.PreventEnterBeep = true;
+            this.tbVariety.Size = new System.Drawing.Size(204, 20);
+            this.tbVariety.TabIndex = 12;
             // 
-            // textBoxX6
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX6.Border.Class = "TextBoxBorder";
-            this.textBoxX6.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX6.Location = new System.Drawing.Point(159, 199);
-            this.textBoxX6.Name = "textBoxX6";
-            this.textBoxX6.PreventEnterBeep = true;
-            this.textBoxX6.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX6.TabIndex = 15;
-            // 
-            // textBoxX7
+            // tbBarCodeQty
             // 
             // 
             // 
             // 
-            this.textBoxX7.Border.Class = "TextBoxBorder";
-            this.textBoxX7.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX7.Location = new System.Drawing.Point(158, 228);
-            this.textBoxX7.Name = "textBoxX7";
-            this.textBoxX7.PreventEnterBeep = true;
-            this.textBoxX7.Size = new System.Drawing.Size(205, 20);
-            this.textBoxX7.TabIndex = 16;
+            this.tbBarCodeQty.Border.Class = "TextBoxBorder";
+            this.tbBarCodeQty.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbBarCodeQty.Location = new System.Drawing.Point(159, 139);
+            this.tbBarCodeQty.Name = "tbBarCodeQty";
+            this.tbBarCodeQty.PreventEnterBeep = true;
+            this.tbBarCodeQty.Size = new System.Drawing.Size(204, 20);
+            this.tbBarCodeQty.TabIndex = 13;
             // 
-            // textBoxX8
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX8.Border.Class = "TextBoxBorder";
-            this.textBoxX8.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX8.Location = new System.Drawing.Point(159, 255);
-            this.textBoxX8.Name = "textBoxX8";
-            this.textBoxX8.PreventEnterBeep = true;
-            this.textBoxX8.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX8.TabIndex = 17;
-            // 
-            // textBoxX9
+            // tbStandardPrice
             // 
             // 
             // 
             // 
-            this.textBoxX9.Border.Class = "TextBoxBorder";
-            this.textBoxX9.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX9.Location = new System.Drawing.Point(159, 281);
-            this.textBoxX9.Name = "textBoxX9";
-            this.textBoxX9.PreventEnterBeep = true;
-            this.textBoxX9.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX9.TabIndex = 18;
+            this.tbStandardPrice.Border.Class = "TextBoxBorder";
+            this.tbStandardPrice.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbStandardPrice.Location = new System.Drawing.Point(159, 170);
+            this.tbStandardPrice.Name = "tbStandardPrice";
+            this.tbStandardPrice.PreventEnterBeep = true;
+            this.tbStandardPrice.Size = new System.Drawing.Size(204, 20);
+            this.tbStandardPrice.TabIndex = 14;
             // 
-            // textBoxX10
-            // 
-            // 
+            // tbCurrentCost
             // 
             // 
-            this.textBoxX10.Border.Class = "TextBoxBorder";
-            this.textBoxX10.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX10.Location = new System.Drawing.Point(159, 313);
-            this.textBoxX10.Name = "textBoxX10";
-            this.textBoxX10.PreventEnterBeep = true;
-            this.textBoxX10.Size = new System.Drawing.Size(204, 20);
-            this.textBoxX10.TabIndex = 19;
             // 
-            // buttonX1
             // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Location = new System.Drawing.Point(477, 52);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(121, 50);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 20;
-            this.buttonX1.Text = "Save";
+            this.tbCurrentCost.Border.Class = "TextBoxBorder";
+            this.tbCurrentCost.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbCurrentCost.Location = new System.Drawing.Point(159, 202);
+            this.tbCurrentCost.Name = "tbCurrentCost";
+            this.tbCurrentCost.PreventEnterBeep = true;
+            this.tbCurrentCost.Size = new System.Drawing.Size(204, 20);
+            this.tbCurrentCost.TabIndex = 15;
             // 
-            // buttonX2
+            // tbQuantity
             // 
-            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Location = new System.Drawing.Point(477, 108);
-            this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(121, 51);
-            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX2.TabIndex = 21;
-            this.buttonX2.Text = "Cancel/Exit";
             // 
-            // buttonX3
             // 
-            this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX3.Location = new System.Drawing.Point(477, 166);
-            this.buttonX3.Name = "buttonX3";
-            this.buttonX3.Size = new System.Drawing.Size(121, 53);
-            this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX3.TabIndex = 22;
-            this.buttonX3.Text = "Clear";
+            // 
+            this.tbQuantity.Border.Class = "TextBoxBorder";
+            this.tbQuantity.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbQuantity.Location = new System.Drawing.Point(158, 228);
+            this.tbQuantity.Name = "tbQuantity";
+            this.tbQuantity.PreventEnterBeep = true;
+            this.tbQuantity.Size = new System.Drawing.Size(205, 20);
+            this.tbQuantity.TabIndex = 16;
+            // 
+            // tbTaxCode
+            // 
+            // 
+            // 
+            // 
+            this.tbTaxCode.Border.Class = "TextBoxBorder";
+            this.tbTaxCode.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbTaxCode.Location = new System.Drawing.Point(159, 255);
+            this.tbTaxCode.Name = "tbTaxCode";
+            this.tbTaxCode.PreventEnterBeep = true;
+            this.tbTaxCode.Size = new System.Drawing.Size(204, 20);
+            this.tbTaxCode.TabIndex = 17;
+            // 
+            // tbSupplierName
+            // 
+            // 
+            // 
+            // 
+            this.tbSupplierName.Border.Class = "TextBoxBorder";
+            this.tbSupplierName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbSupplierName.Location = new System.Drawing.Point(159, 281);
+            this.tbSupplierName.Name = "tbSupplierName";
+            this.tbSupplierName.PreventEnterBeep = true;
+            this.tbSupplierName.Size = new System.Drawing.Size(204, 20);
+            this.tbSupplierName.TabIndex = 18;
+            // 
+            // tbSupplierContactNo
+            // 
+            // 
+            // 
+            // 
+            this.tbSupplierContactNo.Border.Class = "TextBoxBorder";
+            this.tbSupplierContactNo.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbSupplierContactNo.Location = new System.Drawing.Point(159, 313);
+            this.tbSupplierContactNo.Name = "tbSupplierContactNo";
+            this.tbSupplierContactNo.PreventEnterBeep = true;
+            this.tbSupplierContactNo.Size = new System.Drawing.Size(204, 20);
+            this.tbSupplierContactNo.TabIndex = 19;
+            // 
+            // btnSave
+            // 
+            this.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSave.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSave.Location = new System.Drawing.Point(477, 52);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(121, 50);
+            this.btnSave.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSave.TabIndex = 20;
+            this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnClose.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnClose.Location = new System.Drawing.Point(477, 108);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(121, 51);
+            this.btnClose.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnClose.TabIndex = 21;
+            this.btnClose.Text = "Cancel/Exit";
+            this.btnClose.Click += new System.EventHandler(this.buttonX2_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnClear.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnClear.Location = new System.Drawing.Point(477, 166);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(121, 53);
+            this.btnClear.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnClear.TabIndex = 22;
+            this.btnClear.Text = "Clear";
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // frmAddNewProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 350);
-            this.Controls.Add(this.buttonX3);
-            this.Controls.Add(this.buttonX2);
-            this.Controls.Add(this.buttonX1);
-            this.Controls.Add(this.textBoxX10);
-            this.Controls.Add(this.textBoxX9);
-            this.Controls.Add(this.textBoxX8);
-            this.Controls.Add(this.textBoxX7);
-            this.Controls.Add(this.textBoxX6);
-            this.Controls.Add(this.textBoxX5);
-            this.Controls.Add(this.textBoxX4);
-            this.Controls.Add(this.textBoxX3);
-            this.Controls.Add(this.textBoxX2);
-            this.Controls.Add(this.textBoxX1);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.tbSupplierContactNo);
+            this.Controls.Add(this.tbSupplierName);
+            this.Controls.Add(this.tbTaxCode);
+            this.Controls.Add(this.tbQuantity);
+            this.Controls.Add(this.tbCurrentCost);
+            this.Controls.Add(this.tbStandardPrice);
+            this.Controls.Add(this.tbBarCodeQty);
+            this.Controls.Add(this.tbVariety);
+            this.Controls.Add(this.tbDescription);
+            this.Controls.Add(this.tbProductCode);
             this.Controls.Add(this.labelX10);
             this.Controls.Add(this.labelX9);
             this.Controls.Add(this.labelX8);
@@ -383,18 +386,18 @@
         private DevComponents.DotNetBar.LabelX labelX8;
         private DevComponents.DotNetBar.LabelX labelX9;
         private DevComponents.DotNetBar.LabelX labelX10;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX2;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX3;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX4;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX5;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX6;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX7;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX8;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX9;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX10;
-        private DevComponents.DotNetBar.ButtonX buttonX1;
-        private DevComponents.DotNetBar.ButtonX buttonX2;
-        private DevComponents.DotNetBar.ButtonX buttonX3;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbProductCode;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbDescription;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbVariety;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbBarCodeQty;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbStandardPrice;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbCurrentCost;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbQuantity;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbTaxCode;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbSupplierName;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbSupplierContactNo;
+        private DevComponents.DotNetBar.ButtonX btnSave;
+        private DevComponents.DotNetBar.ButtonX btnClose;
+        private DevComponents.DotNetBar.ButtonX btnClear;
     }
 }
