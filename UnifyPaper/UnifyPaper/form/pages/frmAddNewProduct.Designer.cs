@@ -51,6 +51,8 @@
             this.btnSave = new DevComponents.DotNetBar.ButtonX();
             this.btnClose = new DevComponents.DotNetBar.ButtonX();
             this.btnClear = new DevComponents.DotNetBar.ButtonX();
+            this.comboBoxEx1 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.labelX11 = new DevComponents.DotNetBar.LabelX();
             this.SuspendLayout();
             // 
             // labelX1
@@ -179,7 +181,6 @@
             // 
             // 
             // 
-
             this.tbProductCode.Border.Class = "TextBoxBorder";
             this.tbProductCode.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.tbProductCode.Location = new System.Drawing.Point(158, 55);
@@ -187,7 +188,6 @@
             this.tbProductCode.PreventEnterBeep = true;
             this.tbProductCode.Size = new System.Drawing.Size(205, 20);
             this.tbProductCode.TabIndex = 10;
-          
             // 
             // tbDescription
             // 
@@ -342,11 +342,37 @@
             this.btnClear.Text = "Clear";
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // comboBoxEx1
+            // 
+            this.comboBoxEx1.DisplayMember = "Text";
+            this.comboBoxEx1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboBoxEx1.FormattingEnabled = true;
+            this.comboBoxEx1.ItemHeight = 14;
+            this.comboBoxEx1.Location = new System.Drawing.Point(159, 29);
+            this.comboBoxEx1.Name = "comboBoxEx1";
+            this.comboBoxEx1.Size = new System.Drawing.Size(204, 20);
+            this.comboBoxEx1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboBoxEx1.TabIndex = 23;
+            // 
+            // labelX11
+            // 
+            // 
+            // 
+            // 
+            this.labelX11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX11.Location = new System.Drawing.Point(103, 29);
+            this.labelX11.Name = "labelX11";
+            this.labelX11.Size = new System.Drawing.Size(50, 23);
+            this.labelX11.TabIndex = 24;
+            this.labelX11.Text = "Category:";
+            // 
             // frmAddNewProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 350);
+            this.Controls.Add(this.labelX11);
+            this.Controls.Add(this.comboBoxEx1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
@@ -401,5 +427,7 @@
         private DevComponents.DotNetBar.ButtonX btnSave;
         private DevComponents.DotNetBar.ButtonX btnClose;
         private DevComponents.DotNetBar.ButtonX btnClear;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx comboBoxEx1;
+        private DevComponents.DotNetBar.LabelX labelX11;
     }
 }
