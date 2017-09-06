@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUpdateAccount));
             this.lbAccountInformation = new System.Windows.Forms.Label();
             this.btnCancel = new DevComponents.DotNetBar.ButtonX();
-            this.btnOK = new DevComponents.DotNetBar.ButtonX();
+            this.btnUpdate = new DevComponents.DotNetBar.ButtonX();
             this.tbLastname = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbMiddlename = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbFirstname = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -70,17 +70,18 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnOK
+            // btnUpdate
             // 
-            this.btnOK.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnOK.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOK.Location = new System.Drawing.Point(206, 351);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(87, 31);
-            this.btnOK.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnOK.TabIndex = 26;
-            this.btnOK.Text = "Update";
+            this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnUpdate.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Location = new System.Drawing.Point(206, 351);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(87, 31);
+            this.btnUpdate.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnUpdate.TabIndex = 26;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // tbLastname
             // 
@@ -213,7 +214,7 @@
             this.ClientSize = new System.Drawing.Size(682, 453);
             this.Controls.Add(this.lbAccountInformation);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.tbLastname);
             this.Controls.Add(this.tbMiddlename);
             this.Controls.Add(this.tbFirstname);
@@ -236,7 +237,7 @@
 
         private System.Windows.Forms.Label lbAccountInformation;
         private DevComponents.DotNetBar.ButtonX btnCancel;
-        private DevComponents.DotNetBar.ButtonX btnOK;
+        private DevComponents.DotNetBar.ButtonX btnUpdate;
         private DevComponents.DotNetBar.Controls.TextBoxX tbLastname;
         private DevComponents.DotNetBar.Controls.TextBoxX tbMiddlename;
         private DevComponents.DotNetBar.Controls.TextBoxX tbFirstname;
