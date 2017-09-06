@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Database\database.cs" />
+    <Compile Include="Classes\Entities\products.cs" />
     <Compile Include="Classes\Entities\users.cs" />
+    <Compile Include="Classes\Model\m_products.cs" />
     <Compile Include="Classes\Session\sessionUsers.cs" />
     <Compile Include="form\auth\frmLogin.cs">
       <SubType>Form</SubType>
@@ -179,8 +181,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
