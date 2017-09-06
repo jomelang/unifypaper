@@ -23,6 +23,7 @@ namespace UnifyPaper.form.pages
 
         }
 
+
         private void buttonX2_Click(object sender, EventArgs e)
         {
             this.Close();

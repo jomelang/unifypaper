@@ -179,6 +179,7 @@
             // 
             // 
             // 
+
             this.tbProductCode.Border.Class = "TextBoxBorder";
             this.tbProductCode.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.tbProductCode.Location = new System.Drawing.Point(158, 55);
@@ -186,6 +187,7 @@
             this.tbProductCode.PreventEnterBeep = true;
             this.tbProductCode.Size = new System.Drawing.Size(205, 20);
             this.tbProductCode.TabIndex = 10;
+          
             // 
             // tbDescription
             // 
