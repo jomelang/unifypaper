@@ -129,5 +129,37 @@ namespace UnifyPaper.form.pages
             loadData();
             lbUsername.Text = Classes.Session.sessionUsers.username;
         }
+
+        private void bubbleBar1_ButtonClick(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+
+        }
+
+        private void bubbleButton2_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmUpdateAccount faa = new frmUpdateAccount();
+            faa.ShowDialog();
+        }
+
+        private void bubbleButton6_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmUpdateAccount faa = new frmUpdateAccount();
+            faa.ShowDialog();
+        }
+
+        private void bubbleButton3_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+
+        }
+
+        private void bubbleButton3_Click_1(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+
+        }
+
+        private void sideNavItem11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
