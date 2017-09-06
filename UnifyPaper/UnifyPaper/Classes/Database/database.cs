@@ -63,7 +63,91 @@ namespace UnifyPaper.Classes.Database
             return user;
         }
 
+        public bool addNewUser(Classes.Entities.users u)
+        {
+            Classes.Entities.users user = new Classes.Entities.users();
+            bool result = false;
+            try
+            {
+                conn.Open();
+                string sql = "SELECT * FROM usertbl WHERE lastname LIKE @lastname AND firstname LIKE @firstname AND middlename LIKE @middlename";
+                cmd = new OleDbCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@lastname", u.lastname);
+                cmd.Parameters.AddWithValue("@firstname", u.firstname);
+                cmd.Parameters.AddWithValue("@middlename", u.middlename);                
+                dr = cmd.ExecuteReader();
 
+                if (dr.HasRows)
+                {
+                    MessageBox.Show("Record already exist!");
+                }
+                else
+                {
+                    dr.Close();
+                    sql = "INSERT INTO usertbl (lastname, firstname, middlename) VALUES (@lastname, @firstname, @middlename)";
+                    cmd = new OleDbCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@lastname", u.lastname);
+                    cmd.Parameters.AddWithValue("@firstname", u.firstname);
+                    cmd.Parameters.AddWithValue("@middlename", u.middlename);
+                    int add = cmd.ExecuteNonQuery();
+
+                    if (add <= 0)
+                    {
+                        result = false;
+                    }
+                    else
+                    {
+                        result = true;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error addNewUser: " + e.ToString());
+            }
+            finally
+            {
+                dr.Close();
+                conn.Close();
+            }
+            return result;
+        }
+
+        public List <Classes.Entities.users> getAllUser()
+        {
+            List<Classes.Entities.users> userList = new List<Classes.Entities.users>();
+            try
+            {
+                conn.Open();
+                string sql = "SELECT * FROM usertbl";
+                cmd = new OleDbCommand(sql, conn);
+                dr = cmd.ExecuteReader();
+
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Classes.Entities.users u = new Classes.Entities.users();
+                        u.lastname = dr["lastname"].ToString();
+                        u.firstname = dr["firstname"].ToString();
+                        u.middlename = dr["middlename"].ToString();
+                        userList.Add(u);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error getAllUser: " + e.ToString());
+            }
+            finally
+            {
+                dr.Close();
+                conn.Close();
+            }
+            return userList;
+        }
+
+        
 
     }
 }
