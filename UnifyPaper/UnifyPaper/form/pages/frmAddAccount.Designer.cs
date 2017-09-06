@@ -190,6 +190,7 @@
             this.Name = "frmAddAccount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Account";
+            this.Load += new System.EventHandler(this.frmAddAccount_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

@@ -35,14 +35,14 @@
             this.tbLastname = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbMiddlename = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbFirstname = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.tbAccountID = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxEx1 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.lbLastname = new System.Windows.Forms.Label();
             this.lbMiddlename = new System.Windows.Forms.Label();
             this.lbStatus = new System.Windows.Forms.Label();
             this.lbFirstname = new System.Windows.Forms.Label();
             this.lbAccountID = new System.Windows.Forms.Label();
-            this.comboBoxEx1 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lbUserID = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -121,22 +121,10 @@
             this.tbFirstname.Size = new System.Drawing.Size(202, 22);
             this.tbFirstname.TabIndex = 23;
             // 
-            // tbAccountID
-            // 
-            // 
-            // 
-            // 
-            this.tbAccountID.Border.Class = "TextBoxBorder";
-            this.tbAccountID.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.tbAccountID.Location = new System.Drawing.Point(296, 123);
-            this.tbAccountID.Name = "tbAccountID";
-            this.tbAccountID.PreventEnterBeep = true;
-            this.tbAccountID.Size = new System.Drawing.Size(202, 22);
-            this.tbAccountID.TabIndex = 22;
-            // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lbUserID);
             this.panel1.Controls.Add(this.comboBoxEx1);
             this.panel1.Controls.Add(this.lbLastname);
             this.panel1.Controls.Add(this.lbMiddlename);
@@ -147,6 +135,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(494, 336);
             this.panel1.TabIndex = 29;
+            // 
+            // comboBoxEx1
+            // 
+            this.comboBoxEx1.DisplayMember = "Text";
+            this.comboBoxEx1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboBoxEx1.FormattingEnabled = true;
+            this.comboBoxEx1.ItemHeight = 16;
+            this.comboBoxEx1.Location = new System.Drawing.Point(202, 218);
+            this.comboBoxEx1.Name = "comboBoxEx1";
+            this.comboBoxEx1.Size = new System.Drawing.Size(160, 22);
+            this.comboBoxEx1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboBoxEx1.TabIndex = 27;
             // 
             // lbLastname
             // 
@@ -198,17 +198,13 @@
             this.lbAccountID.TabIndex = 22;
             this.lbAccountID.Text = "Account ID";
             // 
-            // comboBoxEx1
+            // lbUserID
             // 
-            this.comboBoxEx1.DisplayMember = "Text";
-            this.comboBoxEx1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboBoxEx1.FormattingEnabled = true;
-            this.comboBoxEx1.ItemHeight = 16;
-            this.comboBoxEx1.Location = new System.Drawing.Point(202, 218);
-            this.comboBoxEx1.Name = "comboBoxEx1";
-            this.comboBoxEx1.Size = new System.Drawing.Size(160, 22);
-            this.comboBoxEx1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboBoxEx1.TabIndex = 27;
+            this.lbUserID.AutoSize = true;
+            this.lbUserID.Location = new System.Drawing.Point(202, 50);
+            this.lbUserID.Name = "lbUserID";
+            this.lbUserID.Size = new System.Drawing.Size(0, 17);
+            this.lbUserID.TabIndex = 28;
             // 
             // frmUpdateAccount
             // 
@@ -221,7 +217,6 @@
             this.Controls.Add(this.tbLastname);
             this.Controls.Add(this.tbMiddlename);
             this.Controls.Add(this.tbFirstname);
-            this.Controls.Add(this.tbAccountID);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -244,7 +239,6 @@
         private DevComponents.DotNetBar.Controls.TextBoxX tbLastname;
         private DevComponents.DotNetBar.Controls.TextBoxX tbMiddlename;
         private DevComponents.DotNetBar.Controls.TextBoxX tbFirstname;
-        private DevComponents.DotNetBar.Controls.TextBoxX tbAccountID;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbLastname;
         private System.Windows.Forms.Label lbMiddlename;
@@ -252,5 +246,6 @@
         private System.Windows.Forms.Label lbFirstname;
         private System.Windows.Forms.Label lbAccountID;
         private DevComponents.DotNetBar.Controls.ComboBoxEx comboBoxEx1;
+        private System.Windows.Forms.Label lbUserID;
     }
 }

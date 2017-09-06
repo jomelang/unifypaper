@@ -21,11 +21,13 @@ namespace UnifyPaper.form.pages
 
         private void lvsetting()
         {
+            lvUser.Columns.Clear();
+
             if (lvUser.Columns.Count <= 0)
             {
-                lvUser.Columns.Add("lastname", 30);
-                lvUser.Columns.Add("firstname", 40);
-                lvUser.Columns.Add("middlename", 30);
+                lvUser.Columns.Add("lastname", 100);
+                lvUser.Columns.Add("firstname", 100);
+                lvUser.Columns.Add("middlename", 100);
             }
         }
 
@@ -38,12 +40,17 @@ namespace UnifyPaper.form.pages
 
         public void loadData()
         {
-            
+            lvUser.Items.Clear();
+
             foreach (Classes.Entities.users u in db.getAllUser())
             {
-                DevComponents.DotNetBar.Controls.ListViewEx lv = new DevComponents.DotNetBar.Controls.ListViewEx();
+                ListViewItem lv = new ListViewItem();
 
-                
+                lv.Text = u.lastname;
+                lv.SubItems.Add(u.firstname);
+                lv.SubItems.Add(u.middlename);
+
+                lvUser.Items.Add(lv);
             }
         }
 

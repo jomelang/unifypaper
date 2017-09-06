@@ -63,9 +63,10 @@ namespace UnifyPaper.Classes.Database
             return user;
         }
 
-        public void addNewUser(Classes.Entities.users u)
+        public bool addNewUser(Classes.Entities.users u)
         {
             Classes.Entities.users user = new Classes.Entities.users();
+            bool result = false;
             try
             {
                 conn.Open();
@@ -88,8 +89,16 @@ namespace UnifyPaper.Classes.Database
                     cmd.Parameters.AddWithValue("@lastname", u.lastname);
                     cmd.Parameters.AddWithValue("@firstname", u.firstname);
                     cmd.Parameters.AddWithValue("@middlename", u.middlename);
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Record Successfully Saved!");
+                    int add = cmd.ExecuteNonQuery();
+
+                    if (add <= 0)
+                    {
+                        result = false;
+                    }
+                    else
+                    {
+                        result = true;
+                    }
                 }
             }
             catch (Exception e)
@@ -101,6 +110,7 @@ namespace UnifyPaper.Classes.Database
                 dr.Close();
                 conn.Close();
             }
+            return result;
         }
 
         public List <Classes.Entities.users> getAllUser()
@@ -136,6 +146,8 @@ namespace UnifyPaper.Classes.Database
             }
             return userList;
         }
+
+        
 
     }
 }
