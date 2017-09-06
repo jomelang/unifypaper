@@ -17,6 +17,36 @@ namespace UnifyPaper.form.pages
             InitializeComponent();
         }
 
+        Classes.Database.database db = new Classes.Database.database();
+
+        private void lvsetting()
+        {
+            if (lvUser.Columns.Count <= 0)
+            {
+                lvUser.Columns.Add("lastname", 30);
+                lvUser.Columns.Add("firstname", 40);
+                lvUser.Columns.Add("middlename", 30);
+            }
+        }
+
+        private void showNewAccount()
+        {
+            frmAddAccount faa = new frmAddAccount();
+            faa.mainPageFrm = this;
+            faa.ShowDialog();
+        }
+
+        public void loadData()
+        {
+            
+            foreach (Classes.Entities.users u in db.getAllUser())
+            {
+                DevComponents.DotNetBar.Controls.ListViewEx lv = new DevComponents.DotNetBar.Controls.ListViewEx();
+
+                
+            }
+        }
+
         private void sideNavItem4_Click(object sender, EventArgs e)
         {
 
@@ -49,8 +79,7 @@ namespace UnifyPaper.form.pages
 
         private void btnAdd_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            frmAddAccount faa = new frmAddAccount();
-            faa.ShowDialog();
+            showNewAccount();
         }
 
         private void btnUpdateAccount_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
@@ -96,6 +125,8 @@ namespace UnifyPaper.form.pages
 
         private void frmMainPage_Load(object sender, EventArgs e)
         {
+            lvsetting();
+            loadData();
             lbUsername.Text = Classes.Session.sessionUsers.username;
         }
     }
