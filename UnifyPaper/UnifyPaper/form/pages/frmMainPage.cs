@@ -136,5 +136,10 @@ namespace UnifyPaper.form.pages
             loadData();
             lbUsername.Text = Classes.Session.sessionUsers.username;
         }
+
+        private void sideNavItem11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
