@@ -186,6 +186,7 @@
             this.textBoxX1.PreventEnterBeep = true;
             this.textBoxX1.Size = new System.Drawing.Size(205, 20);
             this.textBoxX1.TabIndex = 10;
+            this.textBoxX1.TextChanged += new System.EventHandler(this.textBoxX1_TextChanged);
             // 
             // textBoxX2
             // 

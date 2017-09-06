@@ -21,5 +21,10 @@ namespace UnifyPaper.form.pages
         {
 
         }
+
+        private void textBoxX1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
