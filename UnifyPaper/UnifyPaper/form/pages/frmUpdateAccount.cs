@@ -17,6 +17,7 @@ namespace UnifyPaper.form.pages
             InitializeComponent();
         }
 
+
         public frmMainPage mainPageFrm { get; set; }
         public string ID { get; set; }
         Classes.Database.database db = new Classes.Database.database();
@@ -53,6 +54,7 @@ namespace UnifyPaper.form.pages
                 MessageBox.Show("Error: Empty!");
             }
         }
+
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
