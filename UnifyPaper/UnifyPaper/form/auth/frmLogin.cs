@@ -47,15 +47,25 @@ namespace UnifyPaper
             else
             {
                 MessageBox.Show("Please Fill Out Fields");
-            }
-            
+            }                  
+        }
 
-            
+        private void close()
+        {
+            this.close();
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmLogin_Keydown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == Keys.Escape.GetHashCode())
+            {
+                close();
+            }
         }
     }
 }

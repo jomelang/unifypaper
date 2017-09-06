@@ -170,9 +170,12 @@
             this.sideNavPanel1.Controls.Add(this.label1);
             this.sideNavPanel1.Controls.Add(this.lvItem);
             this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel1.Location = new System.Drawing.Point(85, 37);
+
+            this.sideNavPanel1.Location = new System.Drawing.Point(98, 41);
+            this.sideNavPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.sideNavPanel1.Name = "sideNavPanel1";
-            this.sideNavPanel1.Size = new System.Drawing.Size(707, 325);
+            this.sideNavPanel1.Size = new System.Drawing.Size(958, 405);
+
             this.sideNavPanel1.TabIndex = 2;
             this.sideNavPanel1.Visible = false;
             // 
@@ -181,9 +184,12 @@
             this.label8.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(622, 274);
+
+            this.label8.Location = new System.Drawing.Point(829, 337);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 19);
+            this.label8.Size = new System.Drawing.Size(78, 23);
+
             this.label8.TabIndex = 32;
             this.label8.Text = "0.00";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -191,9 +197,12 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(541, 279);
+
+            this.label9.Location = new System.Drawing.Point(721, 343);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 13);
+            this.label9.Size = new System.Drawing.Size(57, 17);
+
             this.label9.TabIndex = 31;
             this.label9.Text = "Change";
             // 
@@ -202,9 +211,12 @@
             this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(622, 249);
+
+            this.label4.Location = new System.Drawing.Point(829, 306);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 19);
+            this.label4.Size = new System.Drawing.Size(78, 23);
+
             this.label4.TabIndex = 30;
             this.label4.Text = "0.00";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -212,9 +224,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(541, 249);
+
+            this.label5.Location = new System.Drawing.Point(721, 306);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 13);
+            this.label5.Size = new System.Drawing.Size(40, 17);
+
             this.label5.TabIndex = 29;
             this.label5.Text = "Cash";
             // 
@@ -223,9 +238,12 @@
             this.lblGrandtotal.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblGrandtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblGrandtotal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGrandtotal.Location = new System.Drawing.Point(622, 224);
+
+            this.lblGrandtotal.Location = new System.Drawing.Point(829, 276);
+            this.lblGrandtotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGrandtotal.Name = "lblGrandtotal";
-            this.lblGrandtotal.Size = new System.Drawing.Size(59, 19);
+            this.lblGrandtotal.Size = new System.Drawing.Size(78, 23);
+
             this.lblGrandtotal.TabIndex = 28;
             this.lblGrandtotal.Text = "0.00";
             this.lblGrandtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -233,26 +251,35 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(541, 224);
+
+            this.label3.Location = new System.Drawing.Point(721, 276);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(84, 17);
+
             this.label3.TabIndex = 27;
             this.label3.Text = "Grand Total";
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(600, 296);
+
+            this.btnSave.Location = new System.Drawing.Point(800, 364);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(91, 26);
+            this.btnSave.Size = new System.Drawing.Size(121, 32);
+
             this.btnSave.TabIndex = 26;
             this.btnSave.Text = "Save (F1)";
             this.btnSave.UseVisualStyleBackColor = true;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(476, 216);
+
+            this.btnSearch.Location = new System.Drawing.Point(635, 266);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(39, 23);
+            this.btnSearch.Size = new System.Drawing.Size(52, 28);
+
             this.btnSearch.TabIndex = 18;
             this.btnSearch.Text = "...";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -263,26 +290,35 @@
             this.lblDescription.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblDescription.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription.Location = new System.Drawing.Point(184, 211);
+
+            this.lblDescription.Location = new System.Drawing.Point(245, 260);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(128, 23);
+            this.lblDescription.Size = new System.Drawing.Size(170, 28);
+
             this.lblDescription.TabIndex = 24;
             this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtQty
             // 
-            this.txtQty.Location = new System.Drawing.Point(349, 215);
+
+            this.txtQty.Location = new System.Drawing.Point(465, 265);
+            this.txtQty.Margin = new System.Windows.Forms.Padding(4);
             this.txtQty.Name = "txtQty";
-            this.txtQty.Size = new System.Drawing.Size(76, 20);
+            this.txtQty.Size = new System.Drawing.Size(100, 22);
+
             this.txtQty.TabIndex = 16;
             this.txtQty.TextChanged += new System.EventHandler(this.txtQty_TextChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(320, 219);
+
+            this.label7.Location = new System.Drawing.Point(427, 270);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 13);
+            this.label7.Size = new System.Drawing.Size(30, 17);
+
             this.label7.TabIndex = 23;
             this.label7.Text = "Qty";
             // 
@@ -290,18 +326,24 @@
             // 
             this.cmbAttendant.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbAttendant.FormattingEnabled = true;
-            this.cmbAttendant.Location = new System.Drawing.Point(81, 282);
+
+            this.cmbAttendant.Location = new System.Drawing.Point(108, 347);
+            this.cmbAttendant.Margin = new System.Windows.Forms.Padding(4);
             this.cmbAttendant.Name = "cmbAttendant";
-            this.cmbAttendant.Size = new System.Drawing.Size(411, 21);
+            this.cmbAttendant.Size = new System.Drawing.Size(547, 24);
+
             this.cmbAttendant.Sorted = true;
             this.cmbAttendant.TabIndex = 21;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 285);
+
+            this.label6.Location = new System.Drawing.Point(16, 351);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 13);
+            this.label6.Size = new System.Drawing.Size(69, 17);
+
             this.label6.TabIndex = 22;
             this.label6.Text = "Attendant";
             // 
@@ -309,17 +351,23 @@
             // 
             this.cmbClient.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbClient.FormattingEnabled = true;
-            this.cmbClient.Location = new System.Drawing.Point(81, 252);
+
+            this.cmbClient.Location = new System.Drawing.Point(108, 310);
+            this.cmbClient.Margin = new System.Windows.Forms.Padding(4);
             this.cmbClient.Name = "cmbClient";
-            this.cmbClient.Size = new System.Drawing.Size(411, 21);
+            this.cmbClient.Size = new System.Drawing.Size(547, 24);
+
             this.cmbClient.Sorted = true;
             this.cmbClient.TabIndex = 20;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(431, 215);
+
+            this.button1.Location = new System.Drawing.Point(575, 265);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 23);
+            this.button1.Size = new System.Drawing.Size(52, 28);
+
             this.button1.TabIndex = 17;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
@@ -327,25 +375,34 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 255);
+
+            this.label2.Location = new System.Drawing.Point(16, 314);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.Size = new System.Drawing.Size(43, 17);
+
             this.label2.TabIndex = 19;
             this.label2.Text = "Client";
             // 
             // txtWID
             // 
-            this.txtWID.Location = new System.Drawing.Point(71, 215);
+
+            this.txtWID.Location = new System.Drawing.Point(95, 265);
+            this.txtWID.Margin = new System.Windows.Forms.Padding(4);
             this.txtWID.Name = "txtWID";
-            this.txtWID.Size = new System.Drawing.Size(107, 20);
+            this.txtWID.Size = new System.Drawing.Size(141, 22);
+
             this.txtWID.TabIndex = 14;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 216);
+
+            this.label1.Location = new System.Drawing.Point(16, 266);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.Size = new System.Drawing.Size(41, 17);
+
             this.label1.TabIndex = 15;
             this.label1.Text = "Code";
             // 
@@ -356,9 +413,12 @@
             this.lvItem.FullRowSelect = true;
             this.lvItem.GridLines = true;
             this.lvItem.Location = new System.Drawing.Point(0, 0);
+
+            this.lvItem.Margin = new System.Windows.Forms.Padding(4);
             this.lvItem.MultiSelect = false;
             this.lvItem.Name = "lvItem";
-            this.lvItem.Size = new System.Drawing.Size(707, 207);
+            this.lvItem.Size = new System.Drawing.Size(958, 254);
+
             this.lvItem.TabIndex = 9;
             this.lvItem.UseCompatibleStateImageBehavior = false;
             this.lvItem.View = System.Windows.Forms.View.Details;
@@ -409,6 +469,7 @@
             this.lvUser.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.lvUser.DisabledBackColor = System.Drawing.Color.Empty;
             this.lvUser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvUser.FullRowSelect = true;
             this.lvUser.GridLines = true;
             this.lvUser.Location = new System.Drawing.Point(0, 0);
             this.lvUser.Name = "lvUser";
@@ -589,6 +650,7 @@
             this.bubbleBar2.TabIndex = 2;
             this.bubbleBar2.Tabs.Add(this.bubbleBarTab2);
             this.bubbleBar2.Text = "bubbleBar2";
+            this.bubbleBar2.ButtonClick += new DevComponents.DotNetBar.ClickEventHandler(this.bubbleBar2_ButtonClick);
             // 
             // bubbleBarTab2
             // 

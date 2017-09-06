@@ -79,14 +79,12 @@
             // 
             // lblUsername
             // 
-
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(39, 52);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(77, 17);
             this.lblUsername.TabIndex = 4;
             this.lblUsername.Text = "Username:";
-
             // 
             // frmLogin
             // 
@@ -103,6 +101,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmLogin_Keydown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

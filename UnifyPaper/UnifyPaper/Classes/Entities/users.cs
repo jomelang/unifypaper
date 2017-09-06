@@ -18,5 +18,4 @@ namespace UnifyPaper.Classes.Entities
         public string middlename { get; set; }
         public string lastname { get; set; }
     }
-    
 }
