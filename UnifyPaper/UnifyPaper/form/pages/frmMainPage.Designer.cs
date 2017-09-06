@@ -127,8 +127,8 @@
             // 
             // sideNav1
             // 
-            this.sideNav1.Controls.Add(this.sideNavPanel4);
             this.sideNav1.Controls.Add(this.sideNavPanel1);
+            this.sideNav1.Controls.Add(this.sideNavPanel4);
             this.sideNav1.Controls.Add(this.sideNavPanel3);
             this.sideNav1.Controls.Add(this.sideNavPanel2);
             this.sideNav1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -156,6 +156,7 @@
             this.sideNavPanel4.Name = "sideNavPanel4";
             this.sideNavPanel4.Size = new System.Drawing.Size(958, 405);
             this.sideNavPanel4.TabIndex = 14;
+            this.sideNavPanel4.Visible = false;
             // 
             // sideNav2
             // 
@@ -452,7 +453,6 @@
             this.sideNavPanel1.Name = "sideNavPanel1";
             this.sideNavPanel1.Size = new System.Drawing.Size(958, 405);
             this.sideNavPanel1.TabIndex = 2;
-            this.sideNavPanel1.Visible = false;
             // 
             // label8
             // 
@@ -706,10 +706,10 @@
             this.sideNavPanel7.Controls.Add(this.bubbleBar6);
             this.sideNavPanel7.Controls.Add(this.listViewEx2);
             this.sideNavPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel7.Location = new System.Drawing.Point(49, 41);
+            this.sideNavPanel7.Location = new System.Drawing.Point(49, 1);
             this.sideNavPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.sideNavPanel7.Name = "sideNavPanel7";
-            this.sideNavPanel7.Size = new System.Drawing.Size(782, 363);
+            this.sideNavPanel7.Size = new System.Drawing.Size(782, 403);
             this.sideNavPanel7.TabIndex = 6;
             // 
             // bubbleBar4
@@ -746,7 +746,7 @@
             this.bubbleBar4.Name = "bubbleBar4";
             this.bubbleBar4.SelectedTab = this.bubbleBarTab4;
             this.bubbleBar4.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
-            this.bubbleBar4.Size = new System.Drawing.Size(239, 133);
+            this.bubbleBar4.Size = new System.Drawing.Size(239, 173);
             this.bubbleBar4.TabIndex = 15;
             this.bubbleBar4.Tabs.Add(this.bubbleBarTab4);
             this.bubbleBar4.Text = "bubbleBar4";
@@ -804,7 +804,7 @@
             this.bubbleBar5.Name = "bubbleBar5";
             this.bubbleBar5.SelectedTab = this.bubbleBarTab5;
             this.bubbleBar5.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
-            this.bubbleBar5.Size = new System.Drawing.Size(180, 133);
+            this.bubbleBar5.Size = new System.Drawing.Size(180, 173);
             this.bubbleBar5.TabIndex = 13;
             this.bubbleBar5.Tabs.Add(this.bubbleBarTab5);
             this.bubbleBar5.Text = "bubbleBar1";
@@ -860,7 +860,7 @@
             this.bubbleBar6.Name = "bubbleBar6";
             this.bubbleBar6.SelectedTab = this.bubbleBarTab6;
             this.bubbleBar6.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
-            this.bubbleBar6.Size = new System.Drawing.Size(239, 133);
+            this.bubbleBar6.Size = new System.Drawing.Size(239, 173);
             this.bubbleBar6.TabIndex = 14;
             this.bubbleBar6.Tabs.Add(this.bubbleBarTab6);
             this.bubbleBar6.Text = "bubbleBar2";
@@ -1154,6 +1154,7 @@
             // 
             // sideNavItem2
             // 
+            this.sideNavItem2.Checked = true;
             this.sideNavItem2.Name = "sideNavItem2";
             this.sideNavItem2.Panel = this.sideNavPanel1;
             this.sideNavItem2.Symbol = "";
@@ -1177,7 +1178,6 @@
             // 
             // sideNavItem5
             // 
-            this.sideNavItem5.Checked = true;
             this.sideNavItem5.Name = "sideNavItem5";
             this.sideNavItem5.Panel = this.sideNavPanel4;
             this.sideNavItem5.Symbol = "";

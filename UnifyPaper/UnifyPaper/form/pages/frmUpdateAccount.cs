@@ -17,9 +17,15 @@ namespace UnifyPaper.form.pages
             InitializeComponent();
         }
 
+        public frm account { get; set; }
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmUpdateAccount_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
