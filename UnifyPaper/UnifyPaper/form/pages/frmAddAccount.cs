@@ -58,5 +58,10 @@ namespace UnifyPaper.form.pages
         {
             saveData();
         }
+
+        private void frmAddAccount_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
