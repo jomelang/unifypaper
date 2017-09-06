@@ -32,7 +32,7 @@
             this.tbUsername = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btnLogin = new DevComponents.DotNetBar.ButtonX();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbUsername
@@ -77,21 +77,23 @@
             this.btnLogin.Text = "Login";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // label1
+            // lblUsername
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Username:";
+
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Location = new System.Drawing.Point(39, 52);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(77, 17);
+            this.lblUsername.TabIndex = 4;
+            this.lblUsername.Text = "Username:";
+
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(283, 254);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbUsername);
@@ -110,7 +112,7 @@
         private DevComponents.DotNetBar.Controls.TextBoxX tbUsername;
         private DevComponents.DotNetBar.Controls.TextBoxX tbPassword;
         private DevComponents.DotNetBar.ButtonX btnLogin;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblUsername;
     }
 }
 
