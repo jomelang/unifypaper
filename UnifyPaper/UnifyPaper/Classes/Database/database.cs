@@ -121,7 +121,7 @@ namespace UnifyPaper.Classes.Database
                 conn.Open();
                 string sql = "SELECT * FROM usertbl WHERE userlevel NOT LIKE @admin";
                 cmd = new OleDbCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@admin", "1");
+                cmd.Parameters.AddWithValue("@admin", "99");
                 dr = cmd.ExecuteReader();
 
                 if (dr.HasRows)
