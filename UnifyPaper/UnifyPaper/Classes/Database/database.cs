@@ -119,8 +119,9 @@ namespace UnifyPaper.Classes.Database
             try
             {
                 conn.Open();
-                string sql = "SELECT * FROM usertbl";
+                string sql = "SELECT * FROM usertbl WHERE userlevel NOT LIKE @admin";
                 cmd = new OleDbCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@admin", "1");
                 dr = cmd.ExecuteReader();
 
                 if (dr.HasRows)
@@ -128,6 +129,7 @@ namespace UnifyPaper.Classes.Database
                     while (dr.Read())
                     {
                         Classes.Entities.users u = new Classes.Entities.users();
+                        u.ID = dr["ID"].ToString();
                         u.lastname = dr["lastname"].ToString();
                         u.firstname = dr["firstname"].ToString();
                         u.middlename = dr["middlename"].ToString();
@@ -164,6 +166,7 @@ namespace UnifyPaper.Classes.Database
                     dr.Close();
                     sql = "SELECT * FROM usertbl WHERE ID NOT LIKE @ID AND lastname=@lastname AND firstname=@firstname AND middlename=@middlename";
                     cmd = new OleDbCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("ID", u.ID);
                     cmd.Parameters.AddWithValue("lastname", u.lastname);
                     cmd.Parameters.AddWithValue("firstname", u.firstname);
                     cmd.Parameters.AddWithValue("middlename", u.middlename);
@@ -181,6 +184,7 @@ namespace UnifyPaper.Classes.Database
                         cmd.Parameters.AddWithValue("lastname", u.lastname);
                         cmd.Parameters.AddWithValue("firstname", u.firstname);
                         cmd.Parameters.AddWithValue("middlename", u.middlename);
+                        cmd.Parameters.AddWithValue("ID", u.ID);
                         int update = cmd.ExecuteNonQuery();
 
                         if (update <= 0)
@@ -205,6 +209,41 @@ namespace UnifyPaper.Classes.Database
             }
             return result;
         }
+
+        public Classes.Entities.users getUserByID(string ID)
+        {
+            
+            Classes.Entities.users u = new Classes.Entities.users();
+            try
+            {
+                conn.Open();
+                string sql = "SELECT * FROM usertbl WHERE ID LIKE @ID";
+                cmd = new OleDbCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@ID", ID);
+                dr = cmd.ExecuteReader();
+
+                if (dr.HasRows)
+                {
+                    dr.Read();
+                    u.ID = dr["ID"].ToString();
+                    u.lastname = dr["lastname"].ToString();
+                    u.firstname = dr["firstname"].ToString();
+                    u.middlename = dr["middlename"].ToString();
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error in getUserByID: " + e.ToString());
+            }
+            finally
+            {
+                dr.Close();
+                conn.Close();
+            }
+            return u;
+        }
+
+        
 
     }
 }

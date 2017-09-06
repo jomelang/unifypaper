@@ -155,6 +155,7 @@
             this.sideNav1.Padding = new System.Windows.Forms.Padding(1);
             this.sideNav1.Size = new System.Drawing.Size(797, 363);
             this.sideNav1.TabIndex = 0;
+
             // 
             // sideNavPanel4
             // 
@@ -212,6 +213,7 @@
             this.lvUser.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.lvUser.DisabledBackColor = System.Drawing.Color.Empty;
             this.lvUser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvUser.FullRowSelect = true;
             this.lvUser.GridLines = true;
             this.lvUser.Location = new System.Drawing.Point(0, 0);
             this.lvUser.Name = "lvUser";
@@ -392,6 +394,7 @@
             this.bubbleBar2.TabIndex = 2;
             this.bubbleBar2.Tabs.Add(this.bubbleBarTab2);
             this.bubbleBar2.Text = "bubbleBar2";
+            this.bubbleBar2.ButtonClick += new DevComponents.DotNetBar.ClickEventHandler(this.bubbleBar2_ButtonClick);
             // 
             // bubbleBarTab2
             // 
