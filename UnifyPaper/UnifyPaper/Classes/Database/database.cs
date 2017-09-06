@@ -147,7 +147,64 @@ namespace UnifyPaper.Classes.Database
             return userList;
         }
 
-        
+        public bool updateUser(Classes.Entities.users u)
+        {
+            Classes.Entities.users user = new Classes.Entities.users();
+            bool result = false;
+            try
+            {
+                conn.Open();
+                string sql = "SELECT * FROM usertbl WHERE ID LIKE @ID";
+                cmd = new OleDbCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@ID", u.ID);
+                dr = cmd.ExecuteReader();
+
+                if (dr.HasRows)
+                {
+                    dr.Close();
+                    sql = "SELECT * FROM usertbl WHERE ID NOT LIKE @ID AND lastname=@lastname AND firstname=@firstname AND middlename=@middlename";
+                    cmd = new OleDbCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("lastname", u.lastname);
+                    cmd.Parameters.AddWithValue("firstname", u.firstname);
+                    cmd.Parameters.AddWithValue("middlename", u.middlename);
+                    dr = cmd.ExecuteReader();
+
+                    if (dr.HasRows)
+                    {
+                        MessageBox.Show("Record already exist!");
+                    }
+                    else
+                    {
+                        dr.Close();
+                        sql = "UPDATE usertbl SET lastname=@lastname, firstname=@firstname, middlename=@middlename WHERE ID LIKE @ID";
+                        cmd = new OleDbCommand();
+                        cmd.Parameters.AddWithValue("lastname", u.lastname);
+                        cmd.Parameters.AddWithValue("firstname", u.firstname);
+                        cmd.Parameters.AddWithValue("middlename", u.middlename);
+                        int update = cmd.ExecuteNonQuery();
+
+                        if (update <= 0)
+                        {
+                            result = false;
+                        }
+                        else
+                        {
+                            result = true;
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error in updateUser: " + e.ToString());
+            }
+            finally
+            {
+                dr.Close();
+                conn.Close();
+            }
+            return result;
+        }
 
     }
 }

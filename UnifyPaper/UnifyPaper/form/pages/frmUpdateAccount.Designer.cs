@@ -36,13 +36,13 @@
             this.tbMiddlename = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbFirstname = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbUserID = new System.Windows.Forms.Label();
             this.comboBoxEx1 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.lbLastname = new System.Windows.Forms.Label();
             this.lbMiddlename = new System.Windows.Forms.Label();
             this.lbStatus = new System.Windows.Forms.Label();
             this.lbFirstname = new System.Windows.Forms.Label();
             this.lbAccountID = new System.Windows.Forms.Label();
-            this.lbUserID = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,6 +136,14 @@
             this.panel1.Size = new System.Drawing.Size(494, 336);
             this.panel1.TabIndex = 29;
             // 
+            // lbUserID
+            // 
+            this.lbUserID.AutoSize = true;
+            this.lbUserID.Location = new System.Drawing.Point(202, 50);
+            this.lbUserID.Name = "lbUserID";
+            this.lbUserID.Size = new System.Drawing.Size(0, 17);
+            this.lbUserID.TabIndex = 28;
+            // 
             // comboBoxEx1
             // 
             this.comboBoxEx1.DisplayMember = "Text";
@@ -198,14 +206,6 @@
             this.lbAccountID.TabIndex = 22;
             this.lbAccountID.Text = "Account ID";
             // 
-            // lbUserID
-            // 
-            this.lbUserID.AutoSize = true;
-            this.lbUserID.Location = new System.Drawing.Point(202, 50);
-            this.lbUserID.Name = "lbUserID";
-            this.lbUserID.Size = new System.Drawing.Size(0, 17);
-            this.lbUserID.TabIndex = 28;
-            // 
             // frmUpdateAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -224,6 +224,7 @@
             this.Name = "frmUpdateAccount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Update Account";
+            this.Load += new System.EventHandler(this.frmUpdateAccount_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
