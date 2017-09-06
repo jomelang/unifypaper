@@ -25,7 +25,6 @@ namespace UnifyPaper.form.pages
 
             if (lvUser.Columns.Count <= 0)
             {
-                lvUser.Columns.Add("ID", 30);
                 lvUser.Columns.Add("lastname", 100);
                 lvUser.Columns.Add("firstname", 100);
                 lvUser.Columns.Add("middlename", 100);
@@ -47,18 +46,12 @@ namespace UnifyPaper.form.pages
             {
                 ListViewItem lv = new ListViewItem();
 
-                lv.Text = u.ID;
-                lv.SubItems.Add(u.lastname);
+                lv.Text = u.lastname;
                 lv.SubItems.Add(u.firstname);
                 lv.SubItems.Add(u.middlename);
 
                 lvUser.Items.Add(lv);
             }
-        }
-
-        private void updateUser()
-        {
-            
         }
 
         private void sideNavItem4_Click(object sender, EventArgs e)
@@ -98,18 +91,8 @@ namespace UnifyPaper.form.pages
 
         private void btnUpdateAccount_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            string id = lvUser.SelectedItems[0].SubItems[0].Text;
-            if (id != "")
-            {
-                db.getUserByID(id);
-                frmUpdateAccount faa = new frmUpdateAccount();
-                faa.ID = id;
-                faa.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Please select the column what you want to update!");
-            }
+            frmUpdateAccount faa = new frmUpdateAccount();
+            faa.ShowDialog();
         }
 
         private void txtQty_TextChanged(object sender, EventArgs e)
@@ -154,9 +137,7 @@ namespace UnifyPaper.form.pages
             lbUsername.Text = Classes.Session.sessionUsers.username;
         }
 
-
-        private void bubbleBar2_ButtonClick(object sender, DevComponents.DotNetBar.ClickEventArgs e)
-
+        private void sideNavItem11_Click(object sender, EventArgs e)
         {
 
         }
