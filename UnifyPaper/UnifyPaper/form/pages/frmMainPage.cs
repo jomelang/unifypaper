@@ -25,9 +25,10 @@ namespace UnifyPaper.form.pages
 
             if (lvUser.Columns.Count <= 0)
             {
-                lvUser.Columns.Add("lastname", 100);
-                lvUser.Columns.Add("firstname", 100);
-                lvUser.Columns.Add("middlename", 100);
+                lvUser.Columns.Add("ID", 30);
+                lvUser.Columns.Add("fullname", 100);
+                lvUser.Columns.Add("username", 100);
+                lvUser.Columns.Add("userlevel", 100);
             }
         }
 
@@ -46,11 +47,27 @@ namespace UnifyPaper.form.pages
             {
                 ListViewItem lv = new ListViewItem();
 
-                lv.Text = u.lastname;
-                lv.SubItems.Add(u.firstname);
-                lv.SubItems.Add(u.middlename);
+                lv.Text = u.ID;
+                lv.SubItems.Add(u.fullname);
+                lv.SubItems.Add(u.username);
+                lv.SubItems.Add(u.userlevel);
 
                 lvUser.Items.Add(lv);
+            }
+        }
+
+        public void deleteUser()
+        {
+            if (lvUser.Items.Count > 0)
+            {
+                if (lvUser.SelectedItems.Count > 0)
+                {
+                    if (MessageBox.Show("Do you want to delete this record?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        db.deleteUserByID(lvUser.FocusedItem.Text);
+                        loadData();
+                    }
+                }
             }
         }
 
@@ -91,8 +108,14 @@ namespace UnifyPaper.form.pages
 
         private void btnUpdateAccount_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            frmUpdateAccount faa = new frmUpdateAccount();
-            faa.ShowDialog();
+            string id = lvUser.SelectedItems[0].SubItems[0].Text;
+            if (id != "")
+            {
+                db.getUserByID(id);
+                frmUpdateAccount faa = new frmUpdateAccount();
+                faa.ID = id;
+                faa.ShowDialog();
+            }
         }
 
         private void txtQty_TextChanged(object sender, EventArgs e)
@@ -135,6 +158,11 @@ namespace UnifyPaper.form.pages
             lvsetting();
             loadData();
             lbUsername.Text = Classes.Session.sessionUsers.username;
+        }
+
+        private void btnDelete_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            deleteUser();
         }
     }
 }

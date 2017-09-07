@@ -29,58 +29,62 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddAccount));
-            this.tbFirstname = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.tbMiddlename = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.tbLastname = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbUsername = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbConfirmPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btnSave = new DevComponents.DotNetBar.ButtonX();
             this.btnCancel = new DevComponents.DotNetBar.ButtonX();
             this.label2 = new System.Windows.Forms.Label();
             this.lbAccountInformation = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lbLastname = new System.Windows.Forms.Label();
-            this.lbMiddlename = new System.Windows.Forms.Label();
-            this.lbFirstname = new System.Windows.Forms.Label();
+            this.lbConfirmPassword = new System.Windows.Forms.Label();
+            this.lbPassword = new System.Windows.Forms.Label();
+            this.lbUsername = new System.Windows.Forms.Label();
+            this.tbFullname = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lbFullname = new System.Windows.Forms.Label();
+            this.cmbRole = new System.Windows.Forms.ComboBox();
+            this.lbRole = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tbFirstname
+            // tbUsername
             // 
             // 
             // 
             // 
-            this.tbFirstname.Border.Class = "TextBoxBorder";
-            this.tbFirstname.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.tbFirstname.Location = new System.Drawing.Point(290, 126);
-            this.tbFirstname.Name = "tbFirstname";
-            this.tbFirstname.PreventEnterBeep = true;
-            this.tbFirstname.Size = new System.Drawing.Size(202, 22);
-            this.tbFirstname.TabIndex = 9;
+            this.tbUsername.Border.Class = "TextBoxBorder";
+            this.tbUsername.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbUsername.Location = new System.Drawing.Point(290, 130);
+            this.tbUsername.Name = "tbUsername";
+            this.tbUsername.PreventEnterBeep = true;
+            this.tbUsername.Size = new System.Drawing.Size(202, 22);
+            this.tbUsername.TabIndex = 9;
             // 
-            // tbMiddlename
-            // 
-            // 
-            // 
-            // 
-            this.tbMiddlename.Border.Class = "TextBoxBorder";
-            this.tbMiddlename.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.tbMiddlename.Location = new System.Drawing.Point(290, 167);
-            this.tbMiddlename.Name = "tbMiddlename";
-            this.tbMiddlename.PreventEnterBeep = true;
-            this.tbMiddlename.Size = new System.Drawing.Size(202, 22);
-            this.tbMiddlename.TabIndex = 11;
-            // 
-            // tbLastname
+            // tbPassword
             // 
             // 
             // 
             // 
-            this.tbLastname.Border.Class = "TextBoxBorder";
-            this.tbLastname.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.tbLastname.Location = new System.Drawing.Point(290, 210);
-            this.tbLastname.Name = "tbLastname";
-            this.tbLastname.PreventEnterBeep = true;
-            this.tbLastname.Size = new System.Drawing.Size(202, 22);
-            this.tbLastname.TabIndex = 13;
+            this.tbPassword.Border.Class = "TextBoxBorder";
+            this.tbPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbPassword.Location = new System.Drawing.Point(290, 171);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PreventEnterBeep = true;
+            this.tbPassword.Size = new System.Drawing.Size(202, 22);
+            this.tbPassword.TabIndex = 11;
+            // 
+            // tbConfirmPassword
+            // 
+            // 
+            // 
+            // 
+            this.tbConfirmPassword.Border.Class = "TextBoxBorder";
+            this.tbConfirmPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbConfirmPassword.Location = new System.Drawing.Point(290, 210);
+            this.tbConfirmPassword.Name = "tbConfirmPassword";
+            this.tbConfirmPassword.PreventEnterBeep = true;
+            this.tbConfirmPassword.Size = new System.Drawing.Size(202, 22);
+            this.tbConfirmPassword.TabIndex = 13;
             // 
             // btnSave
             // 
@@ -132,43 +136,88 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.lbLastname);
-            this.panel1.Controls.Add(this.lbMiddlename);
-            this.panel1.Controls.Add(this.lbFirstname);
+            this.panel1.Controls.Add(this.lbRole);
+            this.panel1.Controls.Add(this.cmbRole);
+            this.panel1.Controls.Add(this.lbFullname);
+            this.panel1.Controls.Add(this.tbFullname);
+            this.panel1.Controls.Add(this.lbConfirmPassword);
+            this.panel1.Controls.Add(this.lbPassword);
+            this.panel1.Controls.Add(this.lbUsername);
             this.panel1.Location = new System.Drawing.Point(88, 54);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(494, 317);
             this.panel1.TabIndex = 21;
             // 
-            // lbLastname
+            // lbConfirmPassword
             // 
-            this.lbLastname.AutoSize = true;
-            this.lbLastname.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLastname.Location = new System.Drawing.Point(55, 155);
-            this.lbLastname.Name = "lbLastname";
-            this.lbLastname.Size = new System.Drawing.Size(89, 21);
-            this.lbLastname.TabIndex = 26;
-            this.lbLastname.Text = "Last Name";
+            this.lbConfirmPassword.AutoSize = true;
+            this.lbConfirmPassword.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbConfirmPassword.Location = new System.Drawing.Point(55, 155);
+            this.lbConfirmPassword.Name = "lbConfirmPassword";
+            this.lbConfirmPassword.Size = new System.Drawing.Size(149, 21);
+            this.lbConfirmPassword.TabIndex = 26;
+            this.lbConfirmPassword.Text = "Confirm Password:";
             // 
-            // lbMiddlename
+            // lbPassword
             // 
-            this.lbMiddlename.AutoSize = true;
-            this.lbMiddlename.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMiddlename.Location = new System.Drawing.Point(55, 112);
-            this.lbMiddlename.Name = "lbMiddlename";
-            this.lbMiddlename.Size = new System.Drawing.Size(106, 21);
-            this.lbMiddlename.TabIndex = 25;
-            this.lbMiddlename.Text = "Middle Name";
+            this.lbPassword.AutoSize = true;
+            this.lbPassword.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPassword.Location = new System.Drawing.Point(55, 116);
+            this.lbPassword.Name = "lbPassword";
+            this.lbPassword.Size = new System.Drawing.Size(87, 21);
+            this.lbPassword.TabIndex = 25;
+            this.lbPassword.Text = "Password:";
             // 
-            // lbFirstname
+            // lbUsername
             // 
-            this.lbFirstname.AutoSize = true;
-            this.lbFirstname.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbFirstname.Location = new System.Drawing.Point(55, 71);
-            this.lbFirstname.Name = "lbFirstname";
-            this.lbFirstname.Size = new System.Drawing.Size(91, 21);
-            this.lbFirstname.TabIndex = 23;
-            this.lbFirstname.Text = "First Name";
+            this.lbUsername.AutoSize = true;
+            this.lbUsername.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUsername.Location = new System.Drawing.Point(55, 75);
+            this.lbUsername.Name = "lbUsername";
+            this.lbUsername.Size = new System.Drawing.Size(91, 21);
+            this.lbUsername.TabIndex = 23;
+            this.lbUsername.Text = "Username:";
+            // 
+            // tbFullname
+            // 
+            // 
+            // 
+            // 
+            this.tbFullname.Border.Class = "TextBoxBorder";
+            this.tbFullname.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tbFullname.Location = new System.Drawing.Point(201, 36);
+            this.tbFullname.Name = "tbFullname";
+            this.tbFullname.PreventEnterBeep = true;
+            this.tbFullname.Size = new System.Drawing.Size(202, 22);
+            this.tbFullname.TabIndex = 22;
+            // 
+            // lbFullname
+            // 
+            this.lbFullname.AutoSize = true;
+            this.lbFullname.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFullname.Location = new System.Drawing.Point(55, 34);
+            this.lbFullname.Name = "lbFullname";
+            this.lbFullname.Size = new System.Drawing.Size(83, 21);
+            this.lbFullname.TabIndex = 27;
+            this.lbFullname.Text = "Fullname:";
+            // 
+            // cmbRole
+            // 
+            this.cmbRole.FormattingEnabled = true;
+            this.cmbRole.Location = new System.Drawing.Point(201, 189);
+            this.cmbRole.Name = "cmbRole";
+            this.cmbRole.Size = new System.Drawing.Size(121, 24);
+            this.cmbRole.TabIndex = 28;
+            // 
+            // lbRole
+            // 
+            this.lbRole.AutoSize = true;
+            this.lbRole.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbRole.Location = new System.Drawing.Point(55, 192);
+            this.lbRole.Name = "lbRole";
+            this.lbRole.Size = new System.Drawing.Size(49, 21);
+            this.lbRole.TabIndex = 29;
+            this.lbRole.Text = "Role:";
             // 
             // frmAddAccount
             // 
@@ -176,9 +225,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(682, 453);
-            this.Controls.Add(this.tbFirstname);
-            this.Controls.Add(this.tbMiddlename);
-            this.Controls.Add(this.tbLastname);
+            this.Controls.Add(this.tbUsername);
+            this.Controls.Add(this.tbPassword);
+            this.Controls.Add(this.tbConfirmPassword);
             this.Controls.Add(this.lbAccountInformation);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
@@ -199,16 +248,20 @@
         }
 
         #endregion
-        private DevComponents.DotNetBar.Controls.TextBoxX tbFirstname;
-        private DevComponents.DotNetBar.Controls.TextBoxX tbMiddlename;
-        private DevComponents.DotNetBar.Controls.TextBoxX tbLastname;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbUsername;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbPassword;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbConfirmPassword;
         private DevComponents.DotNetBar.ButtonX btnSave;
         private DevComponents.DotNetBar.ButtonX btnCancel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbAccountInformation;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lbLastname;
-        private System.Windows.Forms.Label lbMiddlename;
-        private System.Windows.Forms.Label lbFirstname;
+        private System.Windows.Forms.Label lbConfirmPassword;
+        private System.Windows.Forms.Label lbPassword;
+        private System.Windows.Forms.Label lbUsername;
+        private System.Windows.Forms.Label lbRole;
+        private System.Windows.Forms.ComboBox cmbRole;
+        private System.Windows.Forms.Label lbFullname;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbFullname;
     }
 }
