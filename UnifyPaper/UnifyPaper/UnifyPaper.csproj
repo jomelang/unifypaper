@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,13 +48,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Database\database.cs" />
+    <Compile Include="Classes\Entities\products.cs" />
     <Compile Include="Classes\Entities\users.cs" />
+    <Compile Include="Classes\Model\m_products.cs" />
     <Compile Include="Classes\Session\sessionUsers.cs" />
     <Compile Include="form\auth\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="form\auth\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\pages\frmAddNewProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmAddNewProduct.Designer.cs">
+      <DependentUpon>frmAddNewProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="form\pages\frmItemList.cs">
       <SubType>Form</SubType>
@@ -116,6 +125,9 @@
     <EmbeddedResource Include="form\pages\frmAddCategory.resx">
       <DependentUpon>frmAddCategory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmAddNewProduct.resx">
+      <DependentUpon>frmAddNewProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form\pages\frmAddProduct.resx">
       <DependentUpon>frmAddProduct.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,8 +182,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

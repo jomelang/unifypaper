@@ -32,9 +32,15 @@
             this.lbAccountInformation = new System.Windows.Forms.Label();
             this.btnCancel = new DevComponents.DotNetBar.ButtonX();
             this.btnUpdate = new DevComponents.DotNetBar.ButtonX();
+<<<<<<< HEAD
             this.tbCurrentPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbUsername = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tbFullname = new DevComponents.DotNetBar.Controls.TextBoxX();
+=======
+            this.tbLastname = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbMiddlename = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tbFirstname = new DevComponents.DotNetBar.Controls.TextBoxX();
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbUserID = new System.Windows.Forms.Label();
             this.cmbRole = new DevComponents.DotNetBar.Controls.ComboBoxEx();
@@ -77,7 +83,11 @@
             this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnUpdate.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnUpdate.Location = new System.Drawing.Point(206, 345);
+=======
+            this.btnUpdate.Location = new System.Drawing.Point(206, 351);
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(87, 31);
             this.btnUpdate.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -242,9 +252,15 @@
             this.Controls.Add(this.lbAccountInformation);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnUpdate);
+<<<<<<< HEAD
             this.Controls.Add(this.tbCurrentPassword);
             this.Controls.Add(this.tbUsername);
             this.Controls.Add(this.tbFullname);
+=======
+            this.Controls.Add(this.tbLastname);
+            this.Controls.Add(this.tbMiddlename);
+            this.Controls.Add(this.tbFirstname);
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -265,9 +281,15 @@
         private System.Windows.Forms.Label lbAccountInformation;
         private DevComponents.DotNetBar.ButtonX btnCancel;
         private DevComponents.DotNetBar.ButtonX btnUpdate;
+<<<<<<< HEAD
         private DevComponents.DotNetBar.Controls.TextBoxX tbCurrentPassword;
         private DevComponents.DotNetBar.Controls.TextBoxX tbUsername;
         private DevComponents.DotNetBar.Controls.TextBoxX tbFullname;
+=======
+        private DevComponents.DotNetBar.Controls.TextBoxX tbLastname;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbMiddlename;
+        private DevComponents.DotNetBar.Controls.TextBoxX tbFirstname;
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbCurrentPassword;
         private System.Windows.Forms.Label lbUsername;

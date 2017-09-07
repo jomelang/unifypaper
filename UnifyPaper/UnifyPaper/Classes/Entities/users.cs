@@ -17,5 +17,4 @@ namespace UnifyPaper.Classes.Entities
         public string fullname { get; set; }
         public string role { get; set; }
     }
-    
 }
