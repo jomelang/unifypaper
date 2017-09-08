@@ -25,12 +25,15 @@ namespace UnifyPaper.form.pages
 
             if (lvUser.Columns.Count <= 0)
             {
+<<<<<<< HEAD
                 lvUser.Columns.Add("ID", 30);
 <<<<<<< HEAD
                 lvUser.Columns.Add("fullname", 100);
                 lvUser.Columns.Add("username", 100);
                 lvUser.Columns.Add("userlevel", 100);
 =======
+=======
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
                 lvUser.Columns.Add("lastname", 100);
                 lvUser.Columns.Add("firstname", 100);
                 lvUser.Columns.Add("middlename", 100);
@@ -53,6 +56,7 @@ namespace UnifyPaper.form.pages
             {
                 ListViewItem lv = new ListViewItem();
 
+<<<<<<< HEAD
                 lv.Text = u.ID;
 <<<<<<< HEAD
                 lv.SubItems.Add(u.fullname);
@@ -60,6 +64,9 @@ namespace UnifyPaper.form.pages
                 lv.SubItems.Add(u.userlevel);
 =======
                 lv.SubItems.Add(u.lastname);
+=======
+                lv.Text = u.lastname;
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
                 lv.SubItems.Add(u.firstname);
                 lv.SubItems.Add(u.middlename);
 >>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
@@ -68,6 +75,7 @@ namespace UnifyPaper.form.pages
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         public void deleteUser()
         {
@@ -89,6 +97,8 @@ namespace UnifyPaper.form.pages
 >>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
         }
 
+=======
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
         private void sideNavItem4_Click(object sender, EventArgs e)
         {
 
@@ -126,6 +136,7 @@ namespace UnifyPaper.form.pages
 
         private void btnUpdateAccount_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
+<<<<<<< HEAD
             string id = lvUser.SelectedItems[0].SubItems[0].Text;
             if (id != "")
             {
@@ -141,6 +152,10 @@ namespace UnifyPaper.form.pages
                 MessageBox.Show("Please select the column what you want to update!");
             }
 >>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
+=======
+            frmUpdateAccount faa = new frmUpdateAccount();
+            faa.ShowDialog();
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
         }
 
         private void txtQty_TextChanged(object sender, EventArgs e)
@@ -186,7 +201,11 @@ namespace UnifyPaper.form.pages
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         private void btnDelete_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+=======
+        private void sideNavItem11_Click(object sender, EventArgs e)
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
         {
             deleteUser();
 =======
