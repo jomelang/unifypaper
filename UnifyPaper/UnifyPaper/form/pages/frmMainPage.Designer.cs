@@ -31,6 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainPage));
             this.sideNav1 = new DevComponents.DotNetBar.Controls.SideNav();
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            this.sideNavPanel4 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.sideNav2 = new DevComponents.DotNetBar.Controls.SideNav();
+            this.sideNavPanel8 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+=======
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
+=======
 
             this.sideNavPanel4 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNav2 = new DevComponents.DotNetBar.Controls.SideNav();
@@ -52,6 +62,7 @@
             this.sideNavItem7 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.sideNavItem11 = new DevComponents.DotNetBar.Controls.SideNavItem();
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel1 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -72,7 +83,51 @@
             this.txtWID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lvItem = new System.Windows.Forms.ListView();
+<<<<<<< HEAD
+            this.sideNavPanel4 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.sideNav2 = new DevComponents.DotNetBar.Controls.SideNav();
+<<<<<<< HEAD
+=======
+            this.sideNavPanel8 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.bubbleBar10 = new DevComponents.DotNetBar.BubbleBar();
+            this.bubbleBarTab10 = new DevComponents.DotNetBar.BubbleBarTab(this.components);
+            this.bubbleButton4 = new DevComponents.DotNetBar.BubbleButton();
+            this.bubbleButton2 = new DevComponents.DotNetBar.BubbleButton();
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
+            this.sideNavPanel5 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.lvUser = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
+            this.bubbleBar3 = new DevComponents.DotNetBar.BubbleBar();
+            this.bubbleBarTab3 = new DevComponents.DotNetBar.BubbleBarTab(this.components);
+<<<<<<< HEAD
+            this.btnDelete = new DevComponents.DotNetBar.BubbleButton();
+=======
+            this.bubbleButton3 = new DevComponents.DotNetBar.BubbleButton();
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
+            this.bubbleBar1 = new DevComponents.DotNetBar.BubbleBar();
+            this.bubbleBarTab1 = new DevComponents.DotNetBar.BubbleBarTab(this.components);
+            this.btnAdd = new DevComponents.DotNetBar.BubbleButton();
+            this.bubbleBar2 = new DevComponents.DotNetBar.BubbleBar();
+            this.bubbleBarTab2 = new DevComponents.DotNetBar.BubbleBarTab(this.components);
+            this.btnUpdate = new DevComponents.DotNetBar.BubbleButton();
+<<<<<<< HEAD
+            this.sideNavItem6 = new DevComponents.DotNetBar.Controls.SideNavItem();
+            this.separator2 = new DevComponents.DotNetBar.Separator();
+            this.sideNavItem7 = new DevComponents.DotNetBar.Controls.SideNavItem();
+            this.sideNavPanel3 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+=======
+<<<<<<< HEAD
+            this.sideNavItem6 = new DevComponents.DotNetBar.Controls.SideNavItem();
+            this.separator2 = new DevComponents.DotNetBar.Separator();
+=======
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+            this.sideNavItem7 = new DevComponents.DotNetBar.Controls.SideNavItem();
+            this.sideNavItem11 = new DevComponents.DotNetBar.Controls.SideNavItem();
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
+=======
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel2 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNav3 = new DevComponents.DotNetBar.Controls.SideNav();
             this.sideNavPanel7 = new DevComponents.DotNetBar.Controls.SideNavPanel();
@@ -102,6 +157,29 @@
             this.sideNavItem9 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.sideNavItem10 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.sideNavPanel3 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+<<<<<<< HEAD
+            this.sideNavPanel1 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblGrandtotal = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.txtQty = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cmbAttendant = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cmbClient = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtWID = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lvItem = new System.Windows.Forms.ListView();
+=======
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             this.sideNavItem1 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.separator1 = new DevComponents.DotNetBar.Separator();
             this.sideNavItem2 = new DevComponents.DotNetBar.Controls.SideNavItem();
@@ -109,12 +187,27 @@
             this.sideNavItem4 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.sideNavItem5 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.lbUsername = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.reflectionImage1 = new DevComponents.DotNetBar.Controls.ReflectionImage();
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+=======
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNav1.SuspendLayout();
             this.sideNavPanel1.SuspendLayout();
             this.sideNavPanel4.SuspendLayout();
             this.sideNav2.SuspendLayout();
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.sideNavPanel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bubbleBar10)).BeginInit();
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+=======
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel5.SuspendLayout();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar3)).BeginInit();
@@ -130,15 +223,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar9)).BeginInit();
+<<<<<<< HEAD
+            this.sideNavPanel1.SuspendLayout();
+=======
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             this.SuspendLayout();
             // 
             // sideNav1
             // 
             this.sideNav1.Controls.Add(this.sideNavPanel4);
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.sideNav1.Controls.Add(this.sideNavPanel1);
+            this.sideNav1.Controls.Add(this.sideNavPanel3);
+=======
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
+            this.sideNav1.Controls.Add(this.sideNavPanel2);
+            this.sideNav1.Controls.Add(this.sideNavPanel3);
+            this.sideNav1.Controls.Add(this.sideNavPanel1);
+=======
 
             this.sideNav1.Controls.Add(this.sideNavPanel1);
             this.sideNav1.Controls.Add(this.sideNavPanel2);
             this.sideNav1.Controls.Add(this.sideNavPanel3);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNav1.Dock = System.Windows.Forms.DockStyle.Left;
             this.sideNav1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.sideNavItem1,
@@ -148,27 +256,497 @@
             this.sideNavItem4,
             this.sideNavItem5});
             this.sideNav1.Location = new System.Drawing.Point(0, 0);
+            this.sideNav1.Margin = new System.Windows.Forms.Padding(4);
             this.sideNav1.Name = "sideNav1";
             this.sideNav1.Padding = new System.Windows.Forms.Padding(1);
+<<<<<<< HEAD
+            this.sideNav1.Size = new System.Drawing.Size(1061, 447);
+            this.sideNav1.TabIndex = 0;
+<<<<<<< HEAD
+            this.sideNav1.Text = "sideNav1";
+=======
+            // 
+            // sideNavPanel1
+            // 
+            this.sideNavPanel1.Controls.Add(this.label8);
+            this.sideNavPanel1.Controls.Add(this.label9);
+            this.sideNavPanel1.Controls.Add(this.label4);
+            this.sideNavPanel1.Controls.Add(this.label5);
+            this.sideNavPanel1.Controls.Add(this.lblGrandtotal);
+            this.sideNavPanel1.Controls.Add(this.label3);
+            this.sideNavPanel1.Controls.Add(this.btnSave);
+            this.sideNavPanel1.Controls.Add(this.btnSearch);
+            this.sideNavPanel1.Controls.Add(this.lblDescription);
+            this.sideNavPanel1.Controls.Add(this.txtQty);
+            this.sideNavPanel1.Controls.Add(this.label7);
+            this.sideNavPanel1.Controls.Add(this.cmbAttendant);
+            this.sideNavPanel1.Controls.Add(this.label6);
+            this.sideNavPanel1.Controls.Add(this.cmbClient);
+            this.sideNavPanel1.Controls.Add(this.button1);
+            this.sideNavPanel1.Controls.Add(this.label2);
+            this.sideNavPanel1.Controls.Add(this.txtWID);
+            this.sideNavPanel1.Controls.Add(this.label1);
+            this.sideNavPanel1.Controls.Add(this.lvItem);
+            this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel1.Location = new System.Drawing.Point(90, 31);
+            this.sideNavPanel1.Name = "sideNavPanel1";
+            this.sideNavPanel1.Size = new System.Drawing.Size(706, 331);
+            this.sideNavPanel1.TabIndex = 2;
+            this.sideNavPanel1.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(622, 274);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(59, 19);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "0.00";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(541, 279);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(48, 12);
+            this.label9.TabIndex = 31;
+            this.label9.Text = "Change";
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(622, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 19);
+            this.label4.TabIndex = 30;
+            this.label4.Text = "0.00";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(541, 249);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 12);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Cash";
+            // 
+            // lblGrandtotal
+            // 
+            this.lblGrandtotal.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblGrandtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblGrandtotal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrandtotal.Location = new System.Drawing.Point(622, 224);
+            this.lblGrandtotal.Name = "lblGrandtotal";
+            this.lblGrandtotal.Size = new System.Drawing.Size(59, 19);
+            this.lblGrandtotal.TabIndex = 28;
+            this.lblGrandtotal.Text = "0.00";
+            this.lblGrandtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(541, 224);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(71, 12);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Grand Total";
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(600, 296);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(91, 26);
+            this.btnSave.TabIndex = 26;
+            this.btnSave.Text = "Save (F1)";
+            this.btnSave.UseVisualStyleBackColor = true;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(476, 216);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(39, 23);
+            this.btnSearch.TabIndex = 18;
+            this.btnSearch.Text = "...";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblDescription.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(184, 211);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(128, 23);
+            this.lblDescription.TabIndex = 24;
+            this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtQty
+            // 
+            this.txtQty.Location = new System.Drawing.Point(349, 215);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(76, 20);
+            this.txtQty.TabIndex = 16;
+            this.txtQty.TextChanged += new System.EventHandler(this.txtQty_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(320, 219);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(24, 12);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "Qty";
+            // 
+            // cmbAttendant
+            // 
+            this.cmbAttendant.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAttendant.FormattingEnabled = true;
+            this.cmbAttendant.Location = new System.Drawing.Point(81, 282);
+            this.cmbAttendant.Name = "cmbAttendant";
+            this.cmbAttendant.Size = new System.Drawing.Size(411, 20);
+            this.cmbAttendant.Sorted = true;
+            this.cmbAttendant.TabIndex = 21;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 285);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(60, 12);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Attendant";
+            // 
+            // cmbClient
+            // 
+            this.cmbClient.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbClient.FormattingEnabled = true;
+            this.cmbClient.Location = new System.Drawing.Point(81, 252);
+            this.cmbClient.Name = "cmbClient";
+            this.cmbClient.Size = new System.Drawing.Size(411, 20);
+            this.cmbClient.Sorted = true;
+            this.cmbClient.TabIndex = 20;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(431, 215);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(39, 23);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 255);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 12);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Client";
+            // 
+            // txtWID
+            // 
+            this.txtWID.Location = new System.Drawing.Point(71, 215);
+            this.txtWID.Name = "txtWID";
+            this.txtWID.Size = new System.Drawing.Size(107, 20);
+            this.txtWID.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 216);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 12);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Code";
+            // 
+            // lvItem
+            // 
+            this.lvItem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lvItem.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvItem.FullRowSelect = true;
+            this.lvItem.GridLines = true;
+            this.lvItem.Location = new System.Drawing.Point(0, 0);
+            this.lvItem.MultiSelect = false;
+            this.lvItem.Name = "lvItem";
+            this.lvItem.Size = new System.Drawing.Size(706, 207);
+            this.lvItem.TabIndex = 9;
+            this.lvItem.UseCompatibleStateImageBehavior = false;
+            this.lvItem.View = System.Windows.Forms.View.Details;
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+            // 
+            // sideNavPanel1
+            // 
+            this.sideNavPanel1.Controls.Add(this.label8);
+            this.sideNavPanel1.Controls.Add(this.label9);
+            this.sideNavPanel1.Controls.Add(this.label4);
+            this.sideNavPanel1.Controls.Add(this.label5);
+            this.sideNavPanel1.Controls.Add(this.lblGrandtotal);
+            this.sideNavPanel1.Controls.Add(this.label3);
+            this.sideNavPanel1.Controls.Add(this.btnSave);
+            this.sideNavPanel1.Controls.Add(this.btnSearch);
+            this.sideNavPanel1.Controls.Add(this.lblDescription);
+            this.sideNavPanel1.Controls.Add(this.txtQty);
+            this.sideNavPanel1.Controls.Add(this.label7);
+            this.sideNavPanel1.Controls.Add(this.cmbAttendant);
+            this.sideNavPanel1.Controls.Add(this.label6);
+            this.sideNavPanel1.Controls.Add(this.cmbClient);
+            this.sideNavPanel1.Controls.Add(this.button1);
+            this.sideNavPanel1.Controls.Add(this.label2);
+            this.sideNavPanel1.Controls.Add(this.txtWID);
+            this.sideNavPanel1.Controls.Add(this.label1);
+            this.sideNavPanel1.Controls.Add(this.lvItem);
+            this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel1.Location = new System.Drawing.Point(98, 41);
+            this.sideNavPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel1.Name = "sideNavPanel1";
+            this.sideNavPanel1.Size = new System.Drawing.Size(958, 405);
+            this.sideNavPanel1.TabIndex = 2;
+            this.sideNavPanel1.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(829, 337);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(78, 23);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "0.00";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(721, 343);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(57, 17);
+            this.label9.TabIndex = 31;
+            this.label9.Text = "Change";
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(829, 306);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 23);
+            this.label4.TabIndex = 30;
+            this.label4.Text = "0.00";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(721, 306);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 17);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Cash";
+            // 
+            // lblGrandtotal
+            // 
+            this.lblGrandtotal.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblGrandtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblGrandtotal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrandtotal.Location = new System.Drawing.Point(829, 276);
+            this.lblGrandtotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblGrandtotal.Name = "lblGrandtotal";
+            this.lblGrandtotal.Size = new System.Drawing.Size(78, 23);
+            this.lblGrandtotal.TabIndex = 28;
+            this.lblGrandtotal.Text = "0.00";
+            this.lblGrandtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(721, 276);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(84, 17);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Grand Total";
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(800, 364);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(121, 32);
+            this.btnSave.TabIndex = 26;
+            this.btnSave.Text = "Save (F1)";
+            this.btnSave.UseVisualStyleBackColor = true;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(635, 266);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(52, 28);
+            this.btnSearch.TabIndex = 18;
+            this.btnSearch.Text = "...";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblDescription.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(245, 260);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(170, 28);
+            this.lblDescription.TabIndex = 24;
+            this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtQty
+            // 
+            this.txtQty.Location = new System.Drawing.Point(465, 265);
+            this.txtQty.Margin = new System.Windows.Forms.Padding(4);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(100, 22);
+            this.txtQty.TabIndex = 16;
+            this.txtQty.TextChanged += new System.EventHandler(this.txtQty_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(427, 270);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(30, 17);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "Qty";
+            // 
+            // cmbAttendant
+            // 
+            this.cmbAttendant.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAttendant.FormattingEnabled = true;
+            this.cmbAttendant.Location = new System.Drawing.Point(108, 347);
+            this.cmbAttendant.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbAttendant.Name = "cmbAttendant";
+            this.cmbAttendant.Size = new System.Drawing.Size(547, 24);
+            this.cmbAttendant.Sorted = true;
+            this.cmbAttendant.TabIndex = 21;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(16, 351);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 17);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Attendant";
+            // 
+            // cmbClient
+            // 
+            this.cmbClient.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbClient.FormattingEnabled = true;
+            this.cmbClient.Location = new System.Drawing.Point(108, 310);
+            this.cmbClient.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbClient.Name = "cmbClient";
+            this.cmbClient.Size = new System.Drawing.Size(547, 24);
+            this.cmbClient.Sorted = true;
+            this.cmbClient.TabIndex = 20;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(575, 265);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(52, 28);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(16, 314);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 17);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Client";
+            // 
+            // txtWID
+            // 
+            this.txtWID.Location = new System.Drawing.Point(95, 265);
+            this.txtWID.Margin = new System.Windows.Forms.Padding(4);
+            this.txtWID.Name = "txtWID";
+            this.txtWID.Size = new System.Drawing.Size(141, 22);
+            this.txtWID.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(16, 266);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 17);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Code";
+            // 
+            // lvItem
+            // 
+            this.lvItem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lvItem.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvItem.FullRowSelect = true;
+            this.lvItem.GridLines = true;
+            this.lvItem.Location = new System.Drawing.Point(0, 0);
+            this.lvItem.Margin = new System.Windows.Forms.Padding(4);
+            this.lvItem.MultiSelect = false;
+            this.lvItem.Name = "lvItem";
+            this.lvItem.Size = new System.Drawing.Size(958, 254);
+            this.lvItem.TabIndex = 9;
+            this.lvItem.UseCompatibleStateImageBehavior = false;
+            this.lvItem.View = System.Windows.Forms.View.Details;
+=======
             this.sideNav1.Size = new System.Drawing.Size(796, 363);
             this.sideNav1.TabIndex = 0;
 
             this.sideNav1.Text = "sideNav1";
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             // 
             // sideNavPanel4
             // 
             this.sideNavPanel4.Controls.Add(this.sideNav2);
             this.sideNavPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.sideNavPanel4.Location = new System.Drawing.Point(98, 41);
+            this.sideNavPanel4.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel4.Name = "sideNavPanel4";
+            this.sideNavPanel4.Size = new System.Drawing.Size(958, 405);
+=======
             this.sideNavPanel4.Location = new System.Drawing.Point(85, 37);
             this.sideNavPanel4.Name = "sideNavPanel4";
             this.sideNavPanel4.Size = new System.Drawing.Size(706, 325);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel4.TabIndex = 14;
             // 
             // sideNav2
             // 
-            this.sideNav2.Controls.Add(this.sideNavPanel8);
             this.sideNav2.Controls.Add(this.sideNavPanel5);
+<<<<<<< HEAD
+            this.sideNav2.Controls.Add(this.sideNavPanel8);
+=======
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNav2.Dock = System.Windows.Forms.DockStyle.Left;
             this.sideNav2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.sideNavItem6,
@@ -176,9 +754,14 @@
             this.sideNavItem7,
             this.sideNavItem11});
             this.sideNav2.Location = new System.Drawing.Point(0, 0);
+            this.sideNav2.Margin = new System.Windows.Forms.Padding(4);
             this.sideNav2.Name = "sideNav2";
             this.sideNav2.Padding = new System.Windows.Forms.Padding(1);
+<<<<<<< HEAD
+            this.sideNav2.Size = new System.Drawing.Size(827, 405);
+=======
             this.sideNav2.Size = new System.Drawing.Size(620, 325);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNav2.TabIndex = 0;
             this.sideNav2.Text = "sideNav2";
             // 
@@ -257,6 +840,22 @@
             // 
             // bubbleButton2
             // 
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.sideNavPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel8.Location = new System.Drawing.Point(155, 41);
+            this.sideNavPanel8.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel8.Name = "sideNavPanel8";
+            this.sideNavPanel8.Size = new System.Drawing.Size(667, 363);
+            this.sideNavPanel8.TabIndex = 6;
+            this.sideNavPanel8.Visible = false;
+=======
+            this.bubbleButton2.Image = ((System.Drawing.Image)(resources.GetObject("bubbleButton2.Image")));
+            this.bubbleButton2.ImageLarge = ((System.Drawing.Image)(resources.GetObject("bubbleButton2.ImageLarge")));
+            this.bubbleButton2.Name = "bubbleButton2";
+            this.bubbleButton2.TooltipText = "ADD NEW PRODUCT";
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+=======
 
             this.sideNavPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sideNavPanel8.Location = new System.Drawing.Point(134, 37);
@@ -264,17 +863,24 @@
             this.sideNavPanel8.Size = new System.Drawing.Size(481, 287);
             this.sideNavPanel8.TabIndex = 6;
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             // 
             // sideNavPanel5
             // 
             this.sideNavPanel5.Controls.Add(this.lvUser);
             this.sideNavPanel5.Controls.Add(this.panelEx1);
             this.sideNavPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.sideNavPanel5.Location = new System.Drawing.Point(155, 41);
+            this.sideNavPanel5.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel5.Name = "sideNavPanel5";
+            this.sideNavPanel5.Size = new System.Drawing.Size(667, 363);
+=======
             this.sideNavPanel5.Location = new System.Drawing.Point(134, 37);
             this.sideNavPanel5.Name = "sideNavPanel5";
             this.sideNavPanel5.Size = new System.Drawing.Size(481, 287);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel5.TabIndex = 2;
-            this.sideNavPanel5.Visible = false;
             // 
             // lvUser
             // 
@@ -287,8 +893,13 @@
             this.lvUser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvUser.GridLines = true;
             this.lvUser.Location = new System.Drawing.Point(0, 0);
+            this.lvUser.Margin = new System.Windows.Forms.Padding(4);
             this.lvUser.Name = "lvUser";
+<<<<<<< HEAD
+            this.lvUser.Size = new System.Drawing.Size(667, 240);
+=======
             this.lvUser.Size = new System.Drawing.Size(481, 187);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.lvUser.TabIndex = 8;
             this.lvUser.UseCompatibleStateImageBehavior = false;
             this.lvUser.View = System.Windows.Forms.View.Details;
@@ -302,9 +913,16 @@
             this.panelEx1.Controls.Add(this.bubbleBar2);
             this.panelEx1.DisabledBackColor = System.Drawing.Color.Empty;
             this.panelEx1.Dock = System.Windows.Forms.DockStyle.Bottom;
+<<<<<<< HEAD
+            this.panelEx1.Location = new System.Drawing.Point(0, 240);
+            this.panelEx1.Margin = new System.Windows.Forms.Padding(4);
+            this.panelEx1.Name = "panelEx1";
+            this.panelEx1.Size = new System.Drawing.Size(667, 123);
+=======
             this.panelEx1.Location = new System.Drawing.Point(0, 187);
             this.panelEx1.Name = "panelEx1";
             this.panelEx1.Size = new System.Drawing.Size(481, 100);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelEx1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
@@ -343,12 +961,13 @@
             this.bubbleBar3.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar3.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar3.ImageSizeNormal = new System.Drawing.Size(24, 24);
-            this.bubbleBar3.Location = new System.Drawing.Point(314, 0);
+            this.bubbleBar3.Location = new System.Drawing.Point(419, 0);
+            this.bubbleBar3.Margin = new System.Windows.Forms.Padding(4);
             this.bubbleBar3.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar3.Name = "bubbleBar3";
             this.bubbleBar3.SelectedTab = this.bubbleBarTab3;
             this.bubbleBar3.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
-            this.bubbleBar3.Size = new System.Drawing.Size(179, 100);
+            this.bubbleBar3.Size = new System.Drawing.Size(239, 123);
             this.bubbleBar3.TabIndex = 3;
             this.bubbleBar3.Tabs.Add(this.bubbleBarTab3);
             this.bubbleBar3.Text = "bubbleBar3";
@@ -359,7 +978,7 @@
             this.bubbleBarTab3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
             this.bubbleBarTab3.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(168)))), ((int)(((byte)(228)))));
             this.bubbleBarTab3.Buttons.AddRange(new DevComponents.DotNetBar.BubbleButton[] {
-            this.bubbleButton3});
+            this.btnDelete});
             this.bubbleBarTab3.DarkBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bubbleBarTab3.LightBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bubbleBarTab3.Name = "bubbleBarTab3";
@@ -367,11 +986,12 @@
             this.bubbleBarTab3.Text = "Delete Account";
             this.bubbleBarTab3.TextColor = System.Drawing.Color.Black;
             // 
-            // bubbleButton3
+            // btnDelete
             // 
-            this.bubbleButton3.Image = ((System.Drawing.Image)(resources.GetObject("bubbleButton3.Image")));
-            this.bubbleButton3.ImageLarge = ((System.Drawing.Image)(resources.GetObject("bubbleButton3.ImageLarge")));
-            this.bubbleButton3.Name = "bubbleButton3";
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+            this.btnDelete.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageLarge")));
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnDelete_Click);
             // 
             // bubbleBar1
             // 
@@ -401,12 +1021,21 @@
             this.bubbleBar1.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar1.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar1.ImageSizeNormal = new System.Drawing.Size(24, 24);
+<<<<<<< HEAD
+            this.bubbleBar1.Location = new System.Drawing.Point(239, 0);
+            this.bubbleBar1.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.bubbleBar1.Location = new System.Drawing.Point(179, 0);
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             this.bubbleBar1.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar1.Name = "bubbleBar1";
             this.bubbleBar1.SelectedTab = this.bubbleBarTab1;
             this.bubbleBar1.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar1.Size = new System.Drawing.Size(180, 123);
+=======
             this.bubbleBar1.Size = new System.Drawing.Size(135, 100);
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             this.bubbleBar1.TabIndex = 1;
             this.bubbleBar1.Tabs.Add(this.bubbleBarTab1);
             this.bubbleBar1.Text = "bubbleBar1";
@@ -458,11 +1087,19 @@
             this.bubbleBar2.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar2.ImageSizeNormal = new System.Drawing.Size(24, 24);
             this.bubbleBar2.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+            this.bubbleBar2.Margin = new System.Windows.Forms.Padding(4);
+=======
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             this.bubbleBar2.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar2.Name = "bubbleBar2";
             this.bubbleBar2.SelectedTab = this.bubbleBarTab2;
             this.bubbleBar2.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar2.Size = new System.Drawing.Size(239, 123);
+=======
             this.bubbleBar2.Size = new System.Drawing.Size(179, 100);
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             this.bubbleBar2.TabIndex = 2;
             this.bubbleBar2.Tabs.Add(this.bubbleBarTab2);
             this.bubbleBar2.Text = "bubbleBar2";
@@ -487,6 +1124,13 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnUpdateAccount_Click);
             // 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
+=======
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             // sideNavItem6
             // 
             this.sideNavItem6.IsSystemMenu = true;
@@ -504,20 +1148,46 @@
             this.separator2.Padding.Top = 2;
             this.separator2.SeparatorOrientation = DevComponents.DotNetBar.eDesignMarkerOrientation.Vertical;
             // 
+<<<<<<< HEAD
             // sideNavItem7
             // 
+            this.sideNavItem7.Checked = true;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
+            // sideNavItem7
+            // 
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
             this.sideNavItem7.Name = "sideNavItem7";
             this.sideNavItem7.Panel = this.sideNavPanel5;
             this.sideNavItem7.Symbol = "";
             this.sideNavItem7.Text = "Account Manager";
             this.sideNavItem7.Click += new System.EventHandler(this.sideNavItem7_Click);
+<<<<<<< HEAD
+            // 
+            // sideNavPanel3
+=======
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
             // 
             // sideNavItem11
             // 
+<<<<<<< HEAD
+            this.sideNavItem11.Name = "sideNavItem11";
+            this.sideNavItem11.Panel = this.sideNavPanel8;
+            this.sideNavItem11.Symbol = "";
+            this.sideNavItem11.Text = "sideNavItem11";
+=======
             this.sideNavItem11.Checked = true;
             this.sideNavItem11.Name = "sideNavItem11";
             this.sideNavItem11.Panel = this.sideNavPanel8;
             this.sideNavItem11.Symbol = "";
+<<<<<<< HEAD
+            this.sideNavItem11.Text = "Product";
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+=======
             this.sideNavItem11.Text = "sideNavItem11";
             // 
             // sideNavPanel1
@@ -603,6 +1273,7 @@
             this.lblGrandtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label3
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(541, 224);
@@ -745,9 +1416,16 @@
             // 
             this.sideNavPanel2.Controls.Add(this.sideNav3);
             this.sideNavPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.sideNavPanel2.Location = new System.Drawing.Point(98, 41);
+            this.sideNavPanel2.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel2.Name = "sideNavPanel2";
+            this.sideNavPanel2.Size = new System.Drawing.Size(958, 405);
+=======
             this.sideNavPanel2.Location = new System.Drawing.Point(85, 37);
             this.sideNavPanel2.Name = "sideNavPanel2";
             this.sideNavPanel2.Size = new System.Drawing.Size(706, 325);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel2.TabIndex = 6;
             this.sideNavPanel2.Visible = false;
             // 
@@ -762,9 +1440,14 @@
             this.sideNavItem9,
             this.sideNavItem10});
             this.sideNav3.Location = new System.Drawing.Point(0, 0);
+            this.sideNav3.Margin = new System.Windows.Forms.Padding(4);
             this.sideNav3.Name = "sideNav3";
             this.sideNav3.Padding = new System.Windows.Forms.Padding(1);
+<<<<<<< HEAD
+            this.sideNav3.Size = new System.Drawing.Size(836, 405);
+=======
             this.sideNav3.Size = new System.Drawing.Size(627, 325);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNav3.TabIndex = 0;
             this.sideNav3.Text = "\\";
             // 
@@ -775,9 +1458,16 @@
             this.sideNavPanel7.Controls.Add(this.bubbleBar6);
             this.sideNavPanel7.Controls.Add(this.listViewEx2);
             this.sideNavPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.sideNavPanel7.Location = new System.Drawing.Point(155, 41);
+            this.sideNavPanel7.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel7.Name = "sideNavPanel7";
+            this.sideNavPanel7.Size = new System.Drawing.Size(676, 363);
+=======
             this.sideNavPanel7.Location = new System.Drawing.Point(49, 1);
             this.sideNavPanel7.Name = "sideNavPanel7";
             this.sideNavPanel7.Size = new System.Drawing.Size(573, 323);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel7.TabIndex = 6;
             // 
             // bubbleBar4
@@ -808,12 +1498,17 @@
             this.bubbleBar4.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar4.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar4.ImageSizeNormal = new System.Drawing.Size(24, 24);
-            this.bubbleBar4.Location = new System.Drawing.Point(314, 187);
+            this.bubbleBar4.Location = new System.Drawing.Point(419, 230);
+            this.bubbleBar4.Margin = new System.Windows.Forms.Padding(4);
             this.bubbleBar4.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar4.Name = "bubbleBar4";
             this.bubbleBar4.SelectedTab = this.bubbleBarTab4;
             this.bubbleBar4.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar4.Size = new System.Drawing.Size(239, 133);
+=======
             this.bubbleBar4.Size = new System.Drawing.Size(179, 136);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.bubbleBar4.TabIndex = 15;
             this.bubbleBar4.Tabs.Add(this.bubbleBarTab4);
             this.bubbleBar4.Text = "bubbleBar4";
@@ -865,12 +1560,17 @@
             this.bubbleBar5.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar5.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar5.ImageSizeNormal = new System.Drawing.Size(24, 24);
-            this.bubbleBar5.Location = new System.Drawing.Point(179, 187);
+            this.bubbleBar5.Location = new System.Drawing.Point(239, 230);
+            this.bubbleBar5.Margin = new System.Windows.Forms.Padding(4);
             this.bubbleBar5.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar5.Name = "bubbleBar5";
             this.bubbleBar5.SelectedTab = this.bubbleBarTab5;
             this.bubbleBar5.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar5.Size = new System.Drawing.Size(180, 133);
+=======
             this.bubbleBar5.Size = new System.Drawing.Size(135, 136);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.bubbleBar5.TabIndex = 13;
             this.bubbleBar5.Tabs.Add(this.bubbleBarTab5);
             this.bubbleBar5.Text = "bubbleBar1";
@@ -920,12 +1620,17 @@
             this.bubbleBar6.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar6.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar6.ImageSizeNormal = new System.Drawing.Size(24, 24);
-            this.bubbleBar6.Location = new System.Drawing.Point(0, 187);
+            this.bubbleBar6.Location = new System.Drawing.Point(0, 230);
+            this.bubbleBar6.Margin = new System.Windows.Forms.Padding(4);
             this.bubbleBar6.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar6.Name = "bubbleBar6";
             this.bubbleBar6.SelectedTab = this.bubbleBarTab6;
             this.bubbleBar6.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar6.Size = new System.Drawing.Size(239, 133);
+=======
             this.bubbleBar6.Size = new System.Drawing.Size(179, 136);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.bubbleBar6.TabIndex = 14;
             this.bubbleBar6.Tabs.Add(this.bubbleBarTab6);
             this.bubbleBar6.Text = "bubbleBar2";
@@ -960,8 +1665,13 @@
             this.listViewEx2.DisabledBackColor = System.Drawing.Color.Empty;
             this.listViewEx2.Dock = System.Windows.Forms.DockStyle.Top;
             this.listViewEx2.Location = new System.Drawing.Point(0, 0);
+            this.listViewEx2.Margin = new System.Windows.Forms.Padding(4);
             this.listViewEx2.Name = "listViewEx2";
+<<<<<<< HEAD
+            this.listViewEx2.Size = new System.Drawing.Size(676, 230);
+=======
             this.listViewEx2.Size = new System.Drawing.Size(573, 187);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.listViewEx2.TabIndex = 12;
             this.listViewEx2.UseCompatibleStateImageBehavior = false;
             // 
@@ -972,9 +1682,16 @@
             this.sideNavPanel6.Controls.Add(this.bubbleBar9);
             this.sideNavPanel6.Controls.Add(this.listViewEx3);
             this.sideNavPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.sideNavPanel6.Location = new System.Drawing.Point(155, 41);
+            this.sideNavPanel6.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel6.Name = "sideNavPanel6";
+            this.sideNavPanel6.Size = new System.Drawing.Size(676, 363);
+=======
             this.sideNavPanel6.Location = new System.Drawing.Point(133, 37);
             this.sideNavPanel6.Name = "sideNavPanel6";
             this.sideNavPanel6.Size = new System.Drawing.Size(489, 287);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel6.TabIndex = 2;
             this.sideNavPanel6.Visible = false;
             // 
@@ -1006,12 +1723,17 @@
             this.bubbleBar7.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar7.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar7.ImageSizeNormal = new System.Drawing.Size(24, 24);
-            this.bubbleBar7.Location = new System.Drawing.Point(314, 187);
+            this.bubbleBar7.Location = new System.Drawing.Point(419, 230);
+            this.bubbleBar7.Margin = new System.Windows.Forms.Padding(4);
             this.bubbleBar7.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar7.Name = "bubbleBar7";
             this.bubbleBar7.SelectedTab = this.bubbleBarTab7;
             this.bubbleBar7.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar7.Size = new System.Drawing.Size(239, 133);
+=======
             this.bubbleBar7.Size = new System.Drawing.Size(179, 100);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.bubbleBar7.TabIndex = 18;
             this.bubbleBar7.Tabs.Add(this.bubbleBarTab7);
             this.bubbleBar7.Text = "bubbleBar7";
@@ -1063,12 +1785,17 @@
             this.bubbleBar8.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar8.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar8.ImageSizeNormal = new System.Drawing.Size(24, 24);
-            this.bubbleBar8.Location = new System.Drawing.Point(179, 187);
+            this.bubbleBar8.Location = new System.Drawing.Point(239, 230);
+            this.bubbleBar8.Margin = new System.Windows.Forms.Padding(4);
             this.bubbleBar8.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar8.Name = "bubbleBar8";
             this.bubbleBar8.SelectedTab = this.bubbleBarTab8;
             this.bubbleBar8.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar8.Size = new System.Drawing.Size(180, 133);
+=======
             this.bubbleBar8.Size = new System.Drawing.Size(135, 100);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.bubbleBar8.TabIndex = 16;
             this.bubbleBar8.Tabs.Add(this.bubbleBarTab8);
             this.bubbleBar8.Text = "bubbleBar1";
@@ -1118,12 +1845,17 @@
             this.bubbleBar9.ButtonBackAreaStyle.PaddingTop = 3;
             this.bubbleBar9.Dock = System.Windows.Forms.DockStyle.Left;
             this.bubbleBar9.ImageSizeNormal = new System.Drawing.Size(24, 24);
-            this.bubbleBar9.Location = new System.Drawing.Point(0, 187);
+            this.bubbleBar9.Location = new System.Drawing.Point(0, 230);
+            this.bubbleBar9.Margin = new System.Windows.Forms.Padding(4);
             this.bubbleBar9.MouseOverTabColors.BorderColor = System.Drawing.SystemColors.Highlight;
             this.bubbleBar9.Name = "bubbleBar9";
             this.bubbleBar9.SelectedTab = this.bubbleBarTab9;
             this.bubbleBar9.SelectedTabColors.BorderColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
+            this.bubbleBar9.Size = new System.Drawing.Size(239, 133);
+=======
             this.bubbleBar9.Size = new System.Drawing.Size(179, 100);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.bubbleBar9.TabIndex = 17;
             this.bubbleBar9.Tabs.Add(this.bubbleBarTab9);
             this.bubbleBar9.Text = "bubbleBar2";
@@ -1158,8 +1890,13 @@
             this.listViewEx3.DisabledBackColor = System.Drawing.Color.Empty;
             this.listViewEx3.Dock = System.Windows.Forms.DockStyle.Top;
             this.listViewEx3.Location = new System.Drawing.Point(0, 0);
+            this.listViewEx3.Margin = new System.Windows.Forms.Padding(4);
             this.listViewEx3.Name = "listViewEx3";
+<<<<<<< HEAD
+            this.listViewEx3.Size = new System.Drawing.Size(676, 230);
+=======
             this.listViewEx3.Size = new System.Drawing.Size(489, 187);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.listViewEx3.TabIndex = 13;
             this.listViewEx3.UseCompatibleStateImageBehavior = false;
             // 
@@ -1197,14 +1934,263 @@
             // sideNavPanel3
             // 
             this.sideNavPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+<<<<<<< HEAD
+            this.sideNavPanel3.Location = new System.Drawing.Point(98, 41);
+            this.sideNavPanel3.Margin = new System.Windows.Forms.Padding(4);
+            this.sideNavPanel3.Name = "sideNavPanel3";
+            this.sideNavPanel3.Size = new System.Drawing.Size(958, 405);
+            this.sideNavPanel3.TabIndex = 10;
+            this.sideNavPanel3.Visible = false;
+            // 
+            // sideNavPanel1
+            // 
+            this.sideNavPanel1.Controls.Add(this.label8);
+            this.sideNavPanel1.Controls.Add(this.label9);
+            this.sideNavPanel1.Controls.Add(this.label4);
+            this.sideNavPanel1.Controls.Add(this.label5);
+            this.sideNavPanel1.Controls.Add(this.lblGrandtotal);
+            this.sideNavPanel1.Controls.Add(this.label3);
+            this.sideNavPanel1.Controls.Add(this.btnSave);
+            this.sideNavPanel1.Controls.Add(this.btnSearch);
+            this.sideNavPanel1.Controls.Add(this.lblDescription);
+            this.sideNavPanel1.Controls.Add(this.txtQty);
+            this.sideNavPanel1.Controls.Add(this.label7);
+            this.sideNavPanel1.Controls.Add(this.cmbAttendant);
+            this.sideNavPanel1.Controls.Add(this.label6);
+            this.sideNavPanel1.Controls.Add(this.cmbClient);
+            this.sideNavPanel1.Controls.Add(this.button1);
+            this.sideNavPanel1.Controls.Add(this.label2);
+            this.sideNavPanel1.Controls.Add(this.txtWID);
+            this.sideNavPanel1.Controls.Add(this.label1);
+            this.sideNavPanel1.Controls.Add(this.lvItem);
+            this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel1.Location = new System.Drawing.Point(98, 41);
+            this.sideNavPanel1.Margin = new System.Windows.Forms.Padding(5);
+            this.sideNavPanel1.Name = "sideNavPanel1";
+            this.sideNavPanel1.Size = new System.Drawing.Size(957, 405);
+            this.sideNavPanel1.TabIndex = 2;
+            this.sideNavPanel1.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(1105, 415);
+            this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(103, 28);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "0.00";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(961, 422);
+            this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(57, 17);
+            this.label9.TabIndex = 31;
+            this.label9.Text = "Change";
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(1105, 377);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 28);
+            this.label4.TabIndex = 30;
+            this.label4.Text = "0.00";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(961, 377);
+            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 17);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Cash";
+            // 
+            // lblGrandtotal
+            // 
+            this.lblGrandtotal.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblGrandtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblGrandtotal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrandtotal.Location = new System.Drawing.Point(1105, 340);
+            this.lblGrandtotal.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblGrandtotal.Name = "lblGrandtotal";
+            this.lblGrandtotal.Size = new System.Drawing.Size(103, 28);
+            this.lblGrandtotal.TabIndex = 28;
+            this.lblGrandtotal.Text = "0.00";
+            this.lblGrandtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(961, 340);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(84, 17);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Grand Total";
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(1067, 448);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(161, 39);
+            this.btnSave.TabIndex = 26;
+            this.btnSave.Text = "Save (F1)";
+            this.btnSave.UseVisualStyleBackColor = true;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(847, 327);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(69, 34);
+            this.btnSearch.TabIndex = 18;
+            this.btnSearch.Text = "...";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblDescription.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(327, 320);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(226, 34);
+            this.lblDescription.TabIndex = 24;
+            this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtQty
+            // 
+            this.txtQty.Location = new System.Drawing.Point(620, 326);
+            this.txtQty.Margin = new System.Windows.Forms.Padding(5);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(132, 22);
+            this.txtQty.TabIndex = 16;
+            this.txtQty.TextChanged += new System.EventHandler(this.txtQty_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(569, 332);
+            this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(30, 17);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "Qty";
+            // 
+            // cmbAttendant
+            // 
+            this.cmbAttendant.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAttendant.FormattingEnabled = true;
+            this.cmbAttendant.Location = new System.Drawing.Point(144, 427);
+            this.cmbAttendant.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbAttendant.Name = "cmbAttendant";
+            this.cmbAttendant.Size = new System.Drawing.Size(728, 24);
+            this.cmbAttendant.Sorted = true;
+            this.cmbAttendant.TabIndex = 21;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(21, 432);
+            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 17);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Attendant";
+            // 
+            // cmbClient
+            // 
+            this.cmbClient.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbClient.FormattingEnabled = true;
+            this.cmbClient.Location = new System.Drawing.Point(144, 382);
+            this.cmbClient.Margin = new System.Windows.Forms.Padding(5);
+            this.cmbClient.Name = "cmbClient";
+            this.cmbClient.Size = new System.Drawing.Size(728, 24);
+            this.cmbClient.Sorted = true;
+            this.cmbClient.TabIndex = 20;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(767, 326);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(69, 34);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 386);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 17);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Client";
+            // 
+            // txtWID
+            // 
+            this.txtWID.Location = new System.Drawing.Point(127, 326);
+            this.txtWID.Margin = new System.Windows.Forms.Padding(5);
+            this.txtWID.Name = "txtWID";
+            this.txtWID.Size = new System.Drawing.Size(187, 22);
+            this.txtWID.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(21, 327);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 17);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Code";
+            // 
+            // lvItem
+            // 
+            this.lvItem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lvItem.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvItem.FullRowSelect = true;
+            this.lvItem.GridLines = true;
+            this.lvItem.Location = new System.Drawing.Point(0, 0);
+            this.lvItem.Margin = new System.Windows.Forms.Padding(5);
+            this.lvItem.MultiSelect = false;
+            this.lvItem.Name = "lvItem";
+            this.lvItem.Size = new System.Drawing.Size(957, 312);
+            this.lvItem.TabIndex = 9;
+            this.lvItem.UseCompatibleStateImageBehavior = false;
+            this.lvItem.View = System.Windows.Forms.View.Details;
+            // 
+=======
+            this.sideNavPanel3.Location = new System.Drawing.Point(90, 31);
+=======
 
             this.sideNavPanel3.Location = new System.Drawing.Point(74, 33);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel3.Name = "sideNavPanel3";
             this.sideNavPanel3.Size = new System.Drawing.Size(718, 329);
 
             this.sideNavPanel3.TabIndex = 10;
             this.sideNavPanel3.Visible = false;
             // 
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             // sideNavItem1
             // 
             this.sideNavItem1.IsSystemMenu = true;
@@ -1252,26 +2238,52 @@
             this.sideNavItem5.Panel = this.sideNavPanel4;
             this.sideNavItem5.Symbol = "";
             this.sideNavItem5.Text = "Admin";
-            this.sideNavItem5.Click += new System.EventHandler(this.sideNavItem5_Click);
             // 
             // lbUsername
             // 
             this.lbUsername.AutoSize = true;
-            this.lbUsername.Location = new System.Drawing.Point(693, 7);
-            this.lbUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbUsername.Location = new System.Drawing.Point(924, 9);
             this.lbUsername.Name = "lbUsername";
+<<<<<<< HEAD
+            this.lbUsername.Size = new System.Drawing.Size(0, 17);
+            this.lbUsername.TabIndex = 33;
+<<<<<<< HEAD
+=======
+            this.lbUsername.Text = "HELLLO";
+            // 
+            // reflectionImage1
+            // 
+            this.reflectionImage1.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.reflectionImage1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.reflectionImage1.BackgroundStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.reflectionImage1.Image = ((System.Drawing.Image)(resources.GetObject("reflectionImage1.Image")));
+            this.reflectionImage1.Location = new System.Drawing.Point(0, 272);
+            this.reflectionImage1.Name = "reflectionImage1";
+            this.reflectionImage1.Size = new System.Drawing.Size(84, 91);
+            this.reflectionImage1.TabIndex = 1;
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+=======
             this.lbUsername.Size = new System.Drawing.Size(0, 13);
             this.lbUsername.TabIndex = 33;
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             // 
             // frmMainPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(1063, 447);
+=======
             this.ClientSize = new System.Drawing.Size(797, 363);
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.Controls.Add(this.lbUsername);
             this.Controls.Add(this.sideNav1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Unify Paper";
@@ -1284,7 +2296,15 @@
             this.sideNavPanel4.ResumeLayout(false);
             this.sideNav2.ResumeLayout(false);
             this.sideNav2.PerformLayout();
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.sideNavPanel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bubbleBar10)).EndInit();
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
+=======
 
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
             this.sideNavPanel5.ResumeLayout(false);
             this.panelEx1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar3)).EndInit();
@@ -1301,6 +2321,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bubbleBar9)).EndInit();
+<<<<<<< HEAD
+            this.sideNavPanel1.ResumeLayout(false);
+            this.sideNavPanel1.PerformLayout();
+=======
+>>>>>>> 9b478f8eb5106747aafff21cb7b9bcbfcc70556f
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1329,7 +2354,7 @@
         private DevComponents.DotNetBar.BubbleButton btnAdd;
         private DevComponents.DotNetBar.BubbleBar bubbleBar3;
         private DevComponents.DotNetBar.BubbleBarTab bubbleBarTab3;
-        private DevComponents.DotNetBar.BubbleButton bubbleButton3;
+        private DevComponents.DotNetBar.BubbleButton btnDelete;
         private DevComponents.DotNetBar.BubbleBar bubbleBar2;
         private DevComponents.DotNetBar.BubbleBarTab bubbleBarTab2;
         private DevComponents.DotNetBar.BubbleButton btnUpdate;

@@ -22,7 +22,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>true</Prefer32Bit>
+<<<<<<< HEAD
+=======
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+>>>>>>> 87bb530daa4b54b2960a4eefa6d0caa67daff6ba
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

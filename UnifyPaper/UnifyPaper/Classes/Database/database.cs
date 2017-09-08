@@ -70,11 +70,10 @@ namespace UnifyPaper.Classes.Database
             try
             {
                 conn.Open();
-                string sql = "SELECT * FROM usertbl WHERE lastname LIKE @lastname AND firstname LIKE @firstname AND middlename LIKE @middlename";
+                string sql = "SELECT * FROM usertbl WHERE fullname LIKE @fullname AND username LIKE @username";
                 cmd = new OleDbCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@lastname", u.lastname);
-                cmd.Parameters.AddWithValue("@firstname", u.firstname);
-                cmd.Parameters.AddWithValue("@middlename", u.middlename);                
+                cmd.Parameters.AddWithValue("@fullname", u.fullname);
+                cmd.Parameters.AddWithValue("@username", u.username);                
                 dr = cmd.ExecuteReader();
 
                 if (dr.HasRows)
@@ -84,11 +83,11 @@ namespace UnifyPaper.Classes.Database
                 else
                 {
                     dr.Close();
-                    sql = "INSERT INTO usertbl (lastname, firstname, middlename) VALUES (@lastname, @firstname, @middlename)";
+                    sql = "INSERT INTO usertbl (fullname, username, userlevel) VALUES (@fullname, @fullname, @username, @userlevel)";
                     cmd = new OleDbCommand(sql, conn);
-                    cmd.Parameters.AddWithValue("@lastname", u.lastname);
-                    cmd.Parameters.AddWithValue("@firstname", u.firstname);
-                    cmd.Parameters.AddWithValue("@middlename", u.middlename);
+                    cmd.Parameters.AddWithValue("@fullname", u.fullname);
+                    cmd.Parameters.AddWithValue("@username", u.username);
+                    cmd.Parameters.AddWithValue("@userlevel", u.userlevel);
                     int add = cmd.ExecuteNonQuery();
                         
                     if (add <= 0)
@@ -121,7 +120,7 @@ namespace UnifyPaper.Classes.Database
                 conn.Open();
                 string sql = "SELECT * FROM usertbl WHERE userlevel NOT LIKE @admin";
                 cmd = new OleDbCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@admin", "1");
+                cmd.Parameters.AddWithValue("@admin", "99");
                 dr = cmd.ExecuteReader();
 
                 if (dr.HasRows)
@@ -130,9 +129,14 @@ namespace UnifyPaper.Classes.Database
                     {
                         Classes.Entities.users u = new Classes.Entities.users();
                         u.ID = dr["ID"].ToString();
+<<<<<<< HEAD
+                        u.fullname = dr["fullname"].ToString();
+                        u.username = dr["username"].ToString();
+=======
                         u.lastname = dr["lastname"].ToString();
                         u.firstname = dr["firstname"].ToString();
                         u.middlename = dr["middlename"].ToString();
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
                         userList.Add(u);
                     }
                 }
@@ -164,12 +168,18 @@ namespace UnifyPaper.Classes.Database
                 if (dr.HasRows)
                 {
                     dr.Close();
-                    sql = "SELECT * FROM usertbl WHERE ID NOT LIKE @ID AND lastname=@lastname AND firstname=@firstname AND middlename=@middlename";
+                    sql = "SELECT * FROM usertbl WHERE ID NOT LIKE @ID AND fullname=@fullname AND username=@username";
                     cmd = new OleDbCommand(sql, conn);
+<<<<<<< HEAD
+                    cmd.Parameters.AddWithValue("@ID", u.ID);
+                    cmd.Parameters.AddWithValue("fullname", u.fullname);
+                    cmd.Parameters.AddWithValue("usernmae", u.username);
+=======
                     cmd.Parameters.AddWithValue("ID", u.ID);
                     cmd.Parameters.AddWithValue("lastname", u.lastname);
                     cmd.Parameters.AddWithValue("firstname", u.firstname);
                     cmd.Parameters.AddWithValue("middlename", u.middlename);
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
                     dr = cmd.ExecuteReader();
 
                     if (dr.HasRows)
@@ -179,12 +189,18 @@ namespace UnifyPaper.Classes.Database
                     else
                     {
                         dr.Close();
-                        sql = "UPDATE usertbl SET lastname=@lastname, firstname=@firstname, middlename=@middlename WHERE ID LIKE @ID";
+                        sql = "UPDATE usertbl SET fullname=@fullname, username=@username, WHERE ID LIKE @ID";
                         cmd = new OleDbCommand();
+<<<<<<< HEAD
+                        cmd.Parameters.AddWithValue("fullname", u.fullname);
+                        cmd.Parameters.AddWithValue("username", u.username);
+                        cmd.Parameters.AddWithValue("@ID", u.ID);
+=======
                         cmd.Parameters.AddWithValue("lastname", u.lastname);
                         cmd.Parameters.AddWithValue("firstname", u.firstname);
                         cmd.Parameters.AddWithValue("middlename", u.middlename);
                         cmd.Parameters.AddWithValue("ID", u.ID);
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
                         int update = cmd.ExecuteNonQuery();
 
                         if (update <= 0)
@@ -212,7 +228,11 @@ namespace UnifyPaper.Classes.Database
 
         public Classes.Entities.users getUserByID(string ID)
         {
+<<<<<<< HEAD
+
+=======
             
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
             Classes.Entities.users u = new Classes.Entities.users();
             try
             {
@@ -226,9 +246,14 @@ namespace UnifyPaper.Classes.Database
                 {
                     dr.Read();
                     u.ID = dr["ID"].ToString();
+<<<<<<< HEAD
+                    u.ID = dr["fullname"].ToString();
+                    u.username = dr["username"].ToString();   
+=======
                     u.lastname = dr["lastname"].ToString();
                     u.firstname = dr["firstname"].ToString();
                     u.middlename = dr["middlename"].ToString();
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
                 }
             }
             catch (Exception e)
@@ -243,7 +268,51 @@ namespace UnifyPaper.Classes.Database
             return u;
         }
 
+<<<<<<< HEAD
+        public bool deleteUserByID(string ID)
+        {
+            Classes.Entities.users u = new Classes.Entities.users();
+            bool result = false;
+            try
+            {
+                conn.Open();
+                string sql = "SELECT * FROM usertbl WHERE ID LIKE @ID";
+                cmd = new OleDbCommand(sql, conn);
+                cmd.Parameters.AddWithValue("ID", ID);
+                dr = cmd.ExecuteReader();
+
+                if (dr.HasRows)
+                {                  
+                    dr.Close();
+                    sql = "DELETE FROM usertbl WHERE ID LIKE @ID";
+                    cmd = new OleDbCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@ID", ID);
+                    int delete = cmd.ExecuteNonQuery();
+
+                    if (delete > 0)
+                    {
+                        result = true;
+                    }
+                    else
+                    {
+                        result = false;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error in deleteUserByID: " + e.ToString());
+            }
+            finally
+            {
+                dr.Close();
+                conn.Close();
+            }
+            return result;
+        }
+=======
         
 
+>>>>>>> 22c97dd20bcbcfc3af41f4ec3c3aac97838afe5b
     }
 }

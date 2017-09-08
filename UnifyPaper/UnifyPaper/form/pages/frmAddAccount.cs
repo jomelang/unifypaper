@@ -23,15 +23,16 @@ namespace UnifyPaper.form.pages
 
         private void saveData()
         {
-            if (tbLastname.Text.Trim() != "" && tbFirstname.Text.Trim() != "" && tbMiddlename.Text.Trim() != "")
+            if (tbFullname.Text.Trim() != "" && tbUsername.Text.Trim() != "" && tbPassword.Text.Trim() != "" &&cmbRole.Text.Trim() != "")
             {
                 if (MessageBox.Show("Do you want to save this record?", "Saving", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     db = new Classes.Database.database();
                     Classes.Entities.users u = new Classes.Entities.users();
-                    u.lastname = tbLastname.Text.Trim();
-                    u.firstname = tbFirstname.Text.Trim();
-                    u.middlename = tbMiddlename.Text.Trim();
+                    u.fullname = tbFullname.Text.Trim();
+                    u.username = tbUsername.Text.Trim();
+                    u.password = tbPassword.Text.Trim();
+                    u.role = cmbRole.Text.Trim();
 
                     db.addNewUser(u);
                     mainPageFrm.loadData();                    
@@ -61,7 +62,7 @@ namespace UnifyPaper.form.pages
 
         private void frmAddAccount_Load(object sender, EventArgs e)
         {
-
+            this.ActiveControl = tbFullname;
         }
     }
 }
